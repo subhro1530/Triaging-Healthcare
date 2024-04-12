@@ -1,19 +1,21 @@
 // pages/index.js
-import { ChakraProvider, Container, Box } from "@chakra-ui/react";
+import { ChakraProvider, ColorModeScript } from "@chakra-ui/react";
 import Navbar from "../components/Navbar";
 import HeroSection from "../components/HeroSection";
-import Chatbot from "../components/Chatbot";
+import Chatbot from "@/components/Chatbot";
+import dynamic from "next/dynamic"; // Import dynamic from next/dynamic for dynamic import
+
+// const Navbar = dynamic(() => import("../components/Navbar"));
+// const HeroSection = dynamic(() => import("../components/HeroSection"));
+// const Chatbot = dynamic(() => import("../components/Chatbot"));
 
 const Home = () => {
   return (
     <ChakraProvider>
-      <Box bg="gray.900" color="white" minHeight="100vh">
-        <Navbar />
-        <Container maxW="container.lg" py="8">
-          <HeroSection />
-          <Chatbot />
-        </Container>
-      </Box>
+      <ColorModeScript initialColorMode="dark" />
+      <Navbar />
+      <HeroSection />
+      <Chatbot />
     </ChakraProvider>
   );
 };

@@ -12,10 +12,12 @@
     "@chakra-ui/react": "^2.8.2",
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
+    "axios": "^1.6.8",
     "framer-motion": "^11.0.28",
     "next": "14.0.4",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-typewriter-effect": "^1.1.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",

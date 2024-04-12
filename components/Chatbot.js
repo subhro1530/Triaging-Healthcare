@@ -1,23 +1,43 @@
-// components/Chatbot.js
 import { useState } from "react";
 import { Box, Input, Button } from "@chakra-ui/react";
+import axios from "axios";
 
 const Chatbot = () => {
   const [messages, setMessages] = useState([]);
   const [inputText, setInputText] = useState("");
 
   const sendMessage = async () => {
-    // Implement sending message logic here
-    // Example: send message to backend or external service
+    if (!inputText) return;
 
-    setInputText("");
+    try {
+      // Send message to backend API
+      const response = await axios.post("/api/chatbot", { message: inputText });
+
+      // Update chat messages with user input and bot response
+      setMessages([
+        ...messages,
+        { sender: "user", text: inputText },
+        { sender: "bot", text: response.data.response },
+      ]);
+
+      // Clear input text
+      setInputText("");
+    } catch (error) {
+      console.error("Chatbot API Error:", error.message);
+      // Handle error if needed
+    }
   };
 
   return (
     <Box p="4" bg="gray.800" color="white">
       {/* Chat messages display */}
       {messages.map((message, index) => (
-        <Box key={index}>{message}</Box>
+        <Box
+          key={index}
+          textAlign={message.sender === "user" ? "right" : "left"}
+        >
+          {message.text}
+        </Box>
       ))}
 
       {/* Input area for typing messages */}
