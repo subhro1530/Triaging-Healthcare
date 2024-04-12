@@ -1,5 +1,5 @@
 // pages/index.js
-import { ChakraProvider, Container } from "@chakra-ui/react";
+import { ChakraProvider, Container, Box } from "@chakra-ui/react";
 import Navbar from "../components/Navbar";
 import HeroSection from "../components/HeroSection";
 import Chatbot from "../components/Chatbot";
