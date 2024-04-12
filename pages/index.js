@@ -10,6 +10,7 @@ const HeroSection = dynamic(() => import("../components/HeroSection"), {
   ssr: false,
 });
 const Chatbot = dynamic(() => import("../components/Chatbot"), { ssr: false });
+const Footer = dynamic(() => import("../components/Footer"), { ssr: false });
 
 const Home = () => {
   return (
