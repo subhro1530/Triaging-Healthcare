@@ -16,7 +16,7 @@ export default async function handler(req, res) {
         },
         {
           headers: {
-            Authorization: `Bearer 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`,
+            Authorization: `Bearer `,
             "Content-Type": "application/json",
           },
         }
