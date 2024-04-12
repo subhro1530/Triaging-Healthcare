@@ -1,58 +1,54 @@
 // components/HeroSection.js
 import { useEffect } from "react";
-import { Box, Heading } from "@chakra-ui/react";
-import Typewriter from "react-typewriter-effect";
-
-const textContent = [
-  "Get instant responses to your health queries.",
-  "Assess the severity of your symptoms.",
-  "Click here in case of emergency!",
-];
+import { Box } from "@chakra-ui/react";
 
 const HeroSection = () => {
   useEffect(() => {
     if (typeof window !== "undefined") {
-      // Access DOM here safely
-    //   document.title = "Healthcare Chatbot";
+      document.title = "Healthcare Chatbot";
     }
-  }, []); // Empty dependency array ensures this effect runs only once after mount
+  }, []);
 
   return (
     <Box
-      p="8"
-      bg="gray.900"
-      color="white"
+      position="relative"
+      minHeight="100vh"
       display="flex"
       alignItems="center"
       justifyContent="center"
-      minHeight="90vh"
-      width="100vw"
-      position="relative"
       overflow="hidden"
     >
-      <Heading as="h2" size="xl" mb="4">
-        Welcome to Your Healthcare Chatbot
-      </Heading>
-      <Box>
-        <Typewriter
-          onInit={(typewriter) => {
-            textContent.forEach((text, index) => {
-              typewriter
-                .typeString(text)
-                .pauseFor(1500)
-                .deleteAll()
-                .callFunction(() => {
-                  if (index === textContent.length - 1) {
-                    // Restart typewriter loop
-                    typewriter.start();
-                  }
-                });
-            });
-          }}
-          cursor="|"
-          delaySpeed={50}
-          deleteSpeed={50}
-        />
+      {/* Video Background */}
+      <video
+        autoPlay
+        loop
+        muted
+        playsInline
+        style={{
+          position: "absolute",
+          top: 0,
+          left: 0,
+          width: "100%",
+          height: "100%",
+          objectFit: "cover",
+        }}
+      >
+        <source src="/vdo.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+
+      {/* Content Overlay (Optional) */}
+      <Box
+        zIndex={1}
+        textAlign="center"
+        color="white"
+        textShadow="0 2px 4px rgba(0, 0, 0, 0.3)"
+      >
+        {/* Add your content here (e.g., headings, text) */}
+        <h1>Welcome to Your Healthcare Chatbot</h1>
+        <p>Get instant responses to your health queries.</p>
+        <p>Assess the severity of your symptoms.</p>
+        <p>Click here in case of emergency!</p>
       </Box>
     </Box>
   );

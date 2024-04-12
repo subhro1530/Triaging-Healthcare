@@ -1,4 +1,4 @@
-// components/TransparentNavbar.js
+// components/Navbar.js
 
 import { Box, Flex, Link, Button } from "@chakra-ui/react";
 import NextLink from "next/link";
@@ -13,8 +13,8 @@ const TransparentNavbar = () => {
       wrap="wrap"
       w="100%"
       p={4}
-      bg="transparent"
-      color="white"
+      bg="#1a202c"
+      color="#1a202c"
     >
       {/* Logo on the left */}
       <Flex w="30%" justify="center" align="center">
