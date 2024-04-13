@@ -1,5 +1,5 @@
 // components/HeroSection.js
-import { Box, Heading } from "@chakra-ui/react";
+import { Box,Text, Heading } from "@chakra-ui/react";
 import { useEffect } from "react";
 
 const HeroSection = () => {
@@ -12,7 +12,7 @@ const HeroSection = () => {
   return (
     <Box
       position="relative"
-      minHeight="70vh"
+      minHeight="90vh"
       display="flex"
       alignItems="center"
       justifyContent="center"
@@ -45,7 +45,7 @@ const HeroSection = () => {
         width="100%"
         height="100%"
         backgroundColor="black"
-        opacity={0.5} // Adjust the opacity value as needed (0.5 is 50%)
+        opacity={0.7} // Adjust the opacity value as needed (0.5 is 50%)
       />
 
       {/* Content Overlay */}
@@ -60,14 +60,26 @@ const HeroSection = () => {
         {/* Heading Section (Left) */}
         <Heading
           as="h1"
-          size="4xl"
+          size="2xl"
+          letterSpacing="5px"
           color="white"
-          fontWeight="bold"
+          fontWeight="400"
+          textTransform="uppercase"
           mb={{ base: "2rem", md: "0" }}
         >
-          Welcome to Your
-          <br />
-          Healthcare Chatbot
+          Discover health insights with <br />
+        </Heading>
+        <Heading
+          mt={5}
+          size="lg"
+          letterSpacing="20px"
+          color="cyan.300"
+          as="h1"
+          fontWeight="400"
+          textTransform="uppercase"
+          mb={{ base: "2rem", md: "0" }}
+        >
+          symptom detection
         </Heading>
       </Box>
     </Box>

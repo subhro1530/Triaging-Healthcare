@@ -1,5 +1,3 @@
-// pages/api/chatbot.js
-
 import axios from "axios";
 
 export default async function handler(req, res) {
@@ -11,18 +9,27 @@ export default async function handler(req, res) {
         "https://api.openai.com/v1/engines/davinci-codex/completions",
         {
           prompt: message,
-          max_tokens: 50, // Adjust the max tokens based on your needs
-          temperature: 0.5, // Adjust the temperature for diversity of responses
+          max_tokens: 50,
+          temperature: 0.5,
         },
         {
           headers: {
-            Authorization: `Bearer `,
+            Authorization: `Bearer ${process.env.OPENAI_API_KEY}`,
             "Content-Type": "application/json",
           },
         }
       );
 
-      res.status(200).json({ response: response.data.choices[0].text.trim() });
+      if (
+        response.data &&
+        response.data.choices &&
+        response.data.choices.length > 0
+      ) {
+        const botResponse = response.data.choices[0].text.trim();
+        res.status(200).json({ response: botResponse });
+      } else {
+        res.status(500).json({ error: "Invalid response from OpenAI API" });
+      }
     } catch (error) {
       console.error("ChatGPT API Error:", error.message);
       res.status(500).json({ error: "Internal Server Error" });

@@ -14,7 +14,46 @@ import axios from "axios";
 const Chatbot = () => {
   const [messages, setMessages] = useState([]);
   const [inputText, setInputText] = useState("");
+  const [showExamplePrompts, setShowExamplePrompts] = useState(true);
   const messageContainerRef = useRef(null);
+
+  // Example prompts array
+  const examplePrompts = [
+    {
+      text: "I have fever and headaches",
+      action: () => handleExampleClick("I have fever and headaches"),
+    },
+    {
+      text: "What are the symptoms of COVID-19?",
+      action: () => handleExampleClick("What are the symptoms of COVID-19?"),
+    },
+    {
+      text: "How do I prevent the common cold?",
+      action: () => handleExampleClick("How do I prevent the common cold?"),
+    },
+    {
+      text: "Can you provide tips for healthy eating?",
+      action: () =>
+        handleExampleClick("Can you provide tips for healthy eating?"),
+    },
+    {
+      text: "How can I improve my sleep quality?",
+      action: () => handleExampleClick("How can I improve my sleep quality?"),
+    },
+    {
+      text: "What exercises are good for lower back pain?",
+      action: () =>
+        handleExampleClick("What exercises are good for lower back pain?"),
+    },
+    {
+      text: "Do you have tips for managing stress?",
+      action: () => handleExampleClick("Do you have tips for managing stress?"),
+    },
+    {
+      text: "How do I boost my immune system?",
+      action: () => handleExampleClick("How do I boost my immune system?"),
+    },
+  ];
 
   // Scroll to bottom of message container on new message
   useEffect(() => {
@@ -25,93 +64,151 @@ const Chatbot = () => {
   }, [messages]);
 
   const sendMessage = async () => {
-    if (!inputText) return;
+    if (!inputText.trim()) return;
+
+    const userMessage = inputText.trim();
+    setInputText("");
 
     try {
-      // Simulate a response from the chatbot API
-      const botResponse = `Hello! You said: "${inputText}". How can I assist you today?`;
+      // Send user message to backend API
+      const response = await axios.post("/api/chatbot", {
+        message: userMessage,
+      });
 
       // Update chat messages with user input and bot response
-      setMessages([
-        ...messages,
-        { sender: "user", text: inputText },
-        { sender: "bot", text: botResponse },
+      setMessages((prevMessages) => [
+        ...prevMessages,
+        { sender: "user", text: userMessage },
+        { sender: "bot", text: response.data.response }, // Dummy response for now
       ]);
 
-      // Clear input text
-      setInputText("");
+      // Hide example prompts after first message
+      setShowExamplePrompts(false);
     } catch (error) {
       console.error("Chatbot API Error:", error.message);
       // Handle error if needed
     }
   };
 
+  const handleExampleClick = (exampleText) => {
+    setInputText(exampleText);
+  };
+
   return (
     <Box
       p="4"
-      bg="gray.800"
+      bg="gray.900"
       color="white"
       boxShadow="lg"
-      height="400px" // Fixed height for message container
-      overflowY="auto" // Enable vertical scroll for overflow
-      ref={messageContainerRef}
+      height="100vh"
+      overflowY="auto"
+      position="relative"
     >
       {/* Chatbot Heading */}
-      <Heading as="h2" size="md" mb="4">
+      <Heading
+        as="h2"
+        textAlign="center"
+        size="lg"
+        py={5}
+        fontWeight="300"
+        mb="4"
+      >
         Healthcare Chatbot
       </Heading>
 
       {/* Chat messages display */}
-      {messages.map((message, index) => (
-        <Flex
-          key={index}
-          justify={message.sender === "user" ? "flex-end" : "flex-start"}
-          mb="2"
-        >
-          <Box
-            bg={message.sender === "user" ? "blue.500" : "gray.700"}
-            color="white"
-            p="2"
-            borderRadius="lg"
+      <Flex direction="column" ref={messageContainerRef}>
+        {messages.map((message, index) => (
+          <Flex
+            key={index}
+            justify={message.sender === "user" ? "flex-end" : "flex-start"}
+            mb="2"
           >
-            {message.text}
-          </Box>
-        </Flex>
-      ))}
+            <Box
+              bg={message.sender === "user" ? "blue.500" : "gray.700"}
+              color="white"
+              p="2"
+              borderRadius="lg"
+              maxW="70%"
+            >
+              {message.text}
+            </Box>
+          </Flex>
+        ))}
+      </Flex>
 
       {/* Input area for typing messages */}
-      <Flex mt="4">
+      <Flex
+        position="absolute"
+        bottom="12"
+        left="4"
+        right="4"
+        align="center"
+        bg="gray.700"
+        borderRadius="lg"
+        p="2"
+      >
         <Input
           flex="1"
           value={inputText}
           onChange={(e) => setInputText(e.target.value)}
           placeholder="Type your message..."
-          variant="filled"
+          // variant="filled"
           size="md"
-          bgColor="gray.700"
-          color="white"
+          color="gray.300"
           _placeholder={{ color: "gray.400" }}
-          _focus={{ bgColor: "gray.700", border: "none" }}
-          mr="2"
+          _focus={{ bg: "gray.800", border: "none" }}
+          autoFocus
         />
         <Button
           colorScheme="blue"
           onClick={sendMessage}
+          ml="2"
           borderRadius="md"
           aria-label="Send Message"
-          size="md"
-          bg="blue.500"
-          _hover={{ bg: "blue.600" }}
         >
           <Icon as={AiOutlineSend} />
         </Button>
       </Flex>
 
       {/* Chatbot tips and instructions */}
-      <Text mt="4" fontSize="sm" color="gray.400">
+      <Text
+        mt="4"
+        fontSize="sm"
+        color="gray.400"
+        textAlign="center"
+        position="absolute"
+        bottom="5"
+        left="50%"
+        transform="translateX(-50%)"
+      >
         <Icon as={AiOutlineSend} mr="1" />
         Press <strong>Send</strong> to chat with the healthcare bot.
       </Text>
+
+      {/* Example prompts */}
+      {showExamplePrompts && (
+        <Box mt="8" textAlign="center">
+          <Text fontSize="md" mb="2">
+            You might want to know
+          </Text>
+          <Flex flexWrap="wrap" justifyContent="center">
+            {examplePrompts.map((prompt, index) => (
+              <Button
+                key={index}
+                py={5}
+                colorScheme="blue"
+                variant="outline"
+                onClick={prompt.action}
+                mr="2"
+                mb="2"
+              >
+                {prompt.text}
+              </Button>
+            ))}
+          </Flex>
+        </Box>
+      )}
     </Box>
   );
 };
