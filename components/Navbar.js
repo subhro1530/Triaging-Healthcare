@@ -1,10 +1,18 @@
-// components/Navbar.js
-
-import { Box, Flex, Link, Button } from "@chakra-ui/react";
+import {
+  Box,
+  Flex,
+  Link,
+  Button,
+  IconButton,
+  useDisclosure,
+} from "@chakra-ui/react";
 import NextLink from "next/link";
+import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
 import Image from "next/image";
 
 const TransparentNavbar = () => {
+  const { isOpen, onOpen, onClose } = useDisclosure();
+
   return (
     <Flex
       as="nav"
@@ -25,8 +33,24 @@ const TransparentNavbar = () => {
         </NextLink>
       </Flex>
 
+      {/* Hamburger menu icon for mobile */}
+      <IconButton
+        display={{ base: "flex", md: "none" }}
+        icon={isOpen ? <CloseIcon /> : <HamburgerIcon />}
+        onClick={isOpen ? onClose : onOpen}
+        variant="outline"
+        colorScheme="teal"
+        aria-label="Toggle menu"
+      />
+
       {/* Centered links */}
-      <Flex w="40%" justify="center" align="center" color="gray">
+      <Box
+        w={{ base: "100%", md: "40%" }}
+        display={{ base: isOpen ? "block" : "none", md: "flex" }}
+        justifyContent={{ base: "center", md: "flex-start" }}
+        mt={{ base: 4, md: 0 }}
+        color="gray"
+      >
         <NextLink href="/">
           <Link mr={4} _hover={{ color: "white" }}>
             Home
@@ -47,7 +71,7 @@ const TransparentNavbar = () => {
             Whats New
           </Link>
         </NextLink>
-      </Flex>
+      </Box>
 
       {/* Purchase button on the right */}
       <Flex align="center" w="30%" justify="center">
