@@ -18,15 +18,15 @@ const Footer = () => {
         <Box flex="1" pr={[0, 4]} mb={[4, 0]}>
           <Flex align="center" mb={4}>
             <Icon as={FiMapPin} mr={2} />
-            <Text>1234 Street Name, City, Country</Text>
+            <Text>Salt Lake, Kolkata- 700138</Text>
           </Flex>
           <Flex align="center" mb={4}>
             <Icon as={FiPhone} mr={2} />
-            <Text>+1 234 567 890</Text>
+            <Text>+91 123456789</Text>
           </Flex>
           <Flex align="center" mb={4}>
             <Icon as={FiMail} mr={2} />
-            <Text>info@example.com</Text>
+            <Text>shaswata.ssaha@.com</Text>
           </Flex>
         </Box>
 
