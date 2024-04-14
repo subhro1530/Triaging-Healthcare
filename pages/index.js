@@ -11,8 +11,8 @@ const ChatbotIntro = dynamic(() => import("../components/ChatbotIntro"), {
   ssr: false,
 });
 const Footer = dynamic(() => import("../components/Footer"), { ssr: false });
-const SymptomPrediction = dynamic(
-  () => import("../components/SymptomPrediction"),
+const SymptomForm = dynamic(
+  () => import("../components/SymptomForm"),
   { ssr: false }
 );
 
@@ -23,7 +23,7 @@ const Home = () => {
       <Navbar />
       <HeroSection />
       <ChatbotIntro />
-      <SymptomPrediction /> {/* Add SymptomPrediction component here */}
+      <SymptomForm /> {/* Add SymptomForm component here */}
       <Footer />
     </ChakraProvider>
   );
