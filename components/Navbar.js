@@ -63,21 +63,21 @@ const Navbar = () => {
         mt={{ base: 4, md: 0 }}
       >
         <Flex flexDirection={{md:"row",base:"column"}}  spacing={4} align="stretch" mx="auto">
-          <Link href="/" display="flex"  ml={{md:"15px"}} _hover="color:blue"  alignItems="center">
+          <Link href="/" display="flex"  ml={{md:"15px"}} mt={{base:"15px"}} _hover="color:blue"  alignItems="center">
             <Icon as={FaHome} mr={2} />
             Home
           </Link>
-          <Link href="/enquiry" display="flex" ml={{md:"15px"}} _hover="color:blue"  alignItems="center">
+          <Link href="/enquiry" display="flex" ml={{md:"15px"}} mt={{base:"15px"}} _hover="color:blue"  alignItems="center">
             <Icon as={FaQuestionCircle} mr={2} />
             Enquiry
           </Link>
-          <Link href="/blog" display="flex"  ml={{md:"15px"}} _hover="color:blue" alignItems="center">
+          <Link href="/blog" display="flex"  ml={{md:"15px"}} mt={{base:"15px"}} _hover="color:blue" alignItems="center">
             <Icon as={FaBlog} mr={2} />
             Blog
           </Link>
-          <Link href="/whats-new" display="flex" ml={{md:"15px"}} _hover="color:blue"  alignItems="center">
+          <Link href="/whats-new" display="flex" ml={{md:"15px"}} mt={{base:"15px"}} _hover="color:blue"  alignItems="center">
             <Icon as={FaPlus} mr={2} />
-            What's New
+            What&apos;s New
           </Link>
         </Flex>
       </Box>
