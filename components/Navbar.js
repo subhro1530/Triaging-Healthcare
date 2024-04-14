@@ -1,17 +1,30 @@
+import React, { useState } from "react";
 import {
-  Box,
   Flex,
+  Box,
+  Heading,
   Link,
   Button,
+  Icon,
   IconButton,
-  useDisclosure,
+  VStack,
+  Image,
 } from "@chakra-ui/react";
-import NextLink from "next/link";
-import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
-import Image from "next/image";
+import {
+  FaBars,
+  FaTimes,
+  FaHome,
+  FaQuestionCircle,
+  FaBlog,
+  FaPlus,
+} from "react-icons/fa";
 
-const TransparentNavbar = () => {
-  const { isOpen, onOpen, onClose } = useDisclosure();
+const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const handleToggle = () => {
+    setIsOpen(!isOpen);
+  };
 
   return (
     <Flex
@@ -19,68 +32,74 @@ const TransparentNavbar = () => {
       align="center"
       justify="space-between"
       wrap="wrap"
-      w="100%"
       p={4}
-      bg="#1a202c"
-      color="#1a202c"
+      bg="gray.900"
+      color="white"
     >
-      {/* Logo on the left */}
-      <Flex w="30%" justify="center" align="center">
-        <NextLink href="/">
-          <Link>
-            <Image src="/R.png" alt="R" width={40} height={40} />
-          </Link>
-        </NextLink>
+      {/* Logo and Title */}
+      <Flex align="center">
+        <Image src="/logo.png" alt="Logo" width="56px" mr={2} />
+        <Heading as="h3" ml={-3} size="lg" fontWeight={400} letterSpacing={"-.1rem"}>
+          Traging Healthcare
+        </Heading>
       </Flex>
 
-      {/* Hamburger menu icon for mobile */}
+      {/* Hamburger/Close Button */}
       <IconButton
+        icon={isOpen ? <FaTimes /> : <FaBars />}
         display={{ base: "flex", md: "none" }}
-        icon={isOpen ? <CloseIcon /> : <HamburgerIcon />}
-        onClick={isOpen ? onClose : onOpen}
-        variant="outline"
-        colorScheme="teal"
-        aria-label="Toggle menu"
+        onClick={handleToggle}
+        aria-label="Toggle navigation"
+        // variant="ghost"
+        backgroundColor="transparent"
+        color="white"
       />
 
-      {/* Centered links */}
+      {/* Links Section */}
       <Box
-        w={{ base: "100%", md: "40%" }}
         display={{ base: isOpen ? "block" : "none", md: "flex" }}
-        justifyContent={{ base: "center", md: "flex-start" }}
+        width={{ base: "full", md: "auto" }}
+        alignItems={{ base: "center", md: "stretch" }}
+        flexGrow={1}
         mt={{ base: 4, md: 0 }}
-        color="gray"
       >
-        <NextLink href="/">
-          <Link mr={4} _hover={{ color: "white" }}>
+        <VStack spacing={4} align="stretch" mx="auto">
+          <Link href="/" display="flex" alignItems="center">
+            <Icon as={FaHome} mr={2} />
             Home
           </Link>
-        </NextLink>
-        <NextLink href="/enquiry">
-          <Link mr={4} _hover={{ color: "white" }}>
+          <Link href="/enquiry" display="flex" alignItems="center">
+            <Icon as={FaQuestionCircle} mr={2} />
             Enquiry
           </Link>
-        </NextLink>
-        <NextLink href="/blog">
-          <Link mr={4} _hover={{ color: "white" }}>
+          <Link href="/blog" display="flex" alignItems="center">
+            <Icon as={FaBlog} mr={2} />
             Blog
           </Link>
-        </NextLink>
-        <NextLink href="/whats-new">
-          <Link mr={4} _hover={{ color: "white" }}>
-            Whats New
+          <Link href="/whats-new" display="flex" alignItems="center">
+            <Icon as={FaPlus} mr={2} />
+            What's New
           </Link>
-        </NextLink>
+        </VStack>
       </Box>
 
-      {/* Purchase button on the right */}
-      <Flex align="center" w="30%" justify="center">
-        <Button colorScheme="teal" variant="outline">
+      {/* Purchase Button */}
+      <Box
+        display={{ base: isOpen ? "block" : "none", md: "block" }}
+        textAlign={{ base: "center", md: "right" }}
+        width={{ base: "full", md: "auto" }}
+      >
+        <Button
+          colorScheme="teal"
+          variant="outline"
+          mt={{ base: 4, md: 0 }}
+          mx="auto"
+        >
           Purchase
         </Button>
-      </Flex>
+      </Box>
     </Flex>
   );
 };
 
-export default TransparentNavbar;
+export default Navbar;
