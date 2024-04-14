@@ -5,7 +5,7 @@ import { FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <Box as="footer" py={8} bg="gray.900" color="white">
+    <Box as="footer" py={8} bg="gray.800" color="white">
       <Flex
         justify="space-between"
         align="flex-start"

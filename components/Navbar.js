@@ -47,11 +47,10 @@ const Navbar = () => {
       {/* Hamburger/Close Button */}
       <IconButton
         icon={isOpen ? <FaTimes /> : <FaBars />}
-        display={{ base: "flex", md: "none" }}
+        display={{ base: "block", md: "none" }}
         onClick={handleToggle}
         aria-label="Toggle navigation"
-        // variant="ghost"
-        backgroundColor="transparent"
+        variant="ghost"
         color="white"
       />
 
@@ -63,24 +62,24 @@ const Navbar = () => {
         flexGrow={1}
         mt={{ base: 4, md: 0 }}
       >
-        <VStack spacing={4} align="stretch" mx="auto">
-          <Link href="/" display="flex" alignItems="center">
+        <Flex flexDirection={{md:"row",base:"column"}}  spacing={4} align="stretch" mx="auto">
+          <Link href="/" display="flex"  ml={{md:"15px"}} _hover="color:blue"  alignItems="center">
             <Icon as={FaHome} mr={2} />
             Home
           </Link>
-          <Link href="/enquiry" display="flex" alignItems="center">
+          <Link href="/enquiry" display="flex" ml={{md:"15px"}} _hover="color:blue"  alignItems="center">
             <Icon as={FaQuestionCircle} mr={2} />
             Enquiry
           </Link>
-          <Link href="/blog" display="flex" alignItems="center">
+          <Link href="/blog" display="flex"  ml={{md:"15px"}} _hover="color:blue" alignItems="center">
             <Icon as={FaBlog} mr={2} />
             Blog
           </Link>
-          <Link href="/whats-new" display="flex" alignItems="center">
+          <Link href="/whats-new" display="flex" ml={{md:"15px"}} _hover="color:blue"  alignItems="center">
             <Icon as={FaPlus} mr={2} />
             What's New
           </Link>
-        </VStack>
+        </Flex>
       </Box>
 
       {/* Purchase Button */}

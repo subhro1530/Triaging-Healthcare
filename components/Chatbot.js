@@ -100,12 +100,12 @@ const Chatbot = () => {
       bg="gray.900"
       color="white"
       boxShadow="lg"
-      height="100vh"
+      height="92vh"
       overflowY="auto"
       position="relative"
     >
       {/* Chatbot Heading */}
-      <Heading
+      {/* <Heading
         as="h2"
         textAlign="center"
         size="lg"
@@ -114,7 +114,7 @@ const Chatbot = () => {
         mb="4"
       >
         Healthcare Chatbot
-      </Heading>
+      </Heading> */}
 
       {/* Chat messages display */}
       <Flex direction="column" ref={messageContainerRef}>
@@ -140,7 +140,7 @@ const Chatbot = () => {
       {/* Input area for typing messages */}
       <Flex
         position="absolute"
-        bottom="12"
+        bottom={{base:"16",md:"12"}}
         left="4"
         right="4"
         align="center"
