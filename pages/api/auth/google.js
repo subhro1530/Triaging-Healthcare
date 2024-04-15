@@ -2,9 +2,8 @@ import { google } from "googleapis";
 import { OAuth2Client } from "google-auth-library";
 import { NextApiRequest, NextApiResponse } from "next";
 
-const clientId =
-  "665998470418-br2s0gqk82a28c8pqerh0k4tirs92c17.apps.googleusercontent.com";
-const clientSecret = "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";
+const clientId =`${process.env.clientId}`;
+const clientSecret = `${process.env.clientSecret}`;
 const redirectUrl = "http://localhost:3000/api/auth/google/callback";
 
 const oauth2Client = new OAuth2Client(clientId, clientSecret, redirectUrl);
