@@ -18,12 +18,17 @@ import {
   FaBlog,
   FaPlus,
 } from "react-icons/fa";
+import { useRouter } from "next/router";
 
 const Navbar = () => {
+  const router = useRouter();
   const [isOpen, setIsOpen] = useState(false);
 
   const handleToggle = () => {
     setIsOpen(!isOpen);
+  };
+  const handleLogin = () => {
+    router.push("/login"); // Navigate to the login page
   };
 
   return (
@@ -39,7 +44,13 @@ const Navbar = () => {
       {/* Logo and Title */}
       <Flex align="center">
         <Image src="/logo.png" alt="Logo" width="56px" mr={2} />
-        <Heading as="h3" ml={-3} size="lg" fontWeight={400} letterSpacing={"-.1rem"}>
+        <Heading
+          as="h3"
+          ml={-3}
+          size="lg"
+          fontWeight={400}
+          letterSpacing={"-.1rem"}
+        >
           Traging Healthcare
         </Heading>
       </Flex>
@@ -62,20 +73,53 @@ const Navbar = () => {
         flexGrow={1}
         mt={{ base: 4, md: 0 }}
       >
-        <Flex flexDirection={{md:"row",base:"column"}}  spacing={4} align="stretch" mx="auto">
-          <Link href="/" display="flex"  ml={{md:"15px"}} mt={{base:"15px"}} _hover="color:blue"  alignItems="center">
+        <Flex
+          flexDirection={{ md: "row", base: "column" }}
+          spacing={4}
+          align="stretch"
+          mx="auto"
+        >
+          <Link
+            href="/"
+            display="flex"
+            ml={{ md: "35px" }}
+            mt={{ base: "15px" }}
+            _hover="color:blue"
+            alignItems="center"
+          >
             <Icon as={FaHome} mr={2} />
             Home
           </Link>
-          <Link href="/enquiry" display="flex" ml={{md:"15px"}} mt={{base:"15px"}} _hover="color:blue"  alignItems="center">
+          <Link
+            href="/enquiry"
+            display="flex"
+            ml={{ md: "35px" }}
+            mt={{ base: "15px" }}
+            _hover="color:blue"
+            alignItems="center"
+          >
             <Icon as={FaQuestionCircle} mr={2} />
             Enquiry
           </Link>
-          <Link href="/blog" display="flex"  ml={{md:"15px"}} mt={{base:"15px"}} _hover="color:blue" alignItems="center">
+          <Link
+            href="/blog"
+            display="flex"
+            ml={{ md: "35px" }}
+            mt={{ base: "15px" }}
+            _hover="color:blue"
+            alignItems="center"
+          >
             <Icon as={FaBlog} mr={2} />
             Blog
           </Link>
-          <Link href="/whats-new" display="flex" ml={{md:"15px"}} mt={{base:"15px"}} _hover="color:blue"  alignItems="center">
+          <Link
+            href="/whats-new"
+            display="flex"
+            ml={{ md: "35px" }}
+            mt={{ base: "15px" }}
+            _hover="color:blue"
+            alignItems="center"
+          >
             <Icon as={FaPlus} mr={2} />
             What&apos;s New
           </Link>
@@ -93,8 +137,9 @@ const Navbar = () => {
           variant="outline"
           mt={{ base: 4, md: 0 }}
           mx="auto"
+          onClick={handleLogin} // Handle click event to navigate to login page
         >
-          Purchase
+          Login
         </Button>
       </Box>
     </Flex>
