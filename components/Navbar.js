@@ -51,7 +51,7 @@ const Navbar = () => {
           fontWeight={400}
           letterSpacing={"-.1rem"}
         >
-          Traging Healthcare
+          Triaging Healthcare
         </Heading>
       </Flex>
 

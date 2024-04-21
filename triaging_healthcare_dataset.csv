@@ -1,0 +1,791 @@
+Disease,Age,Gender,Latitude,Longitude,Symptom_1,Symptom_2,Symptom_3,Symptom_4,Severity
+Common Cold,45,Male,42.387,-95.223,Runny nose,Sneezing,,60
+Flu,63,Female,41.722,-97.154,Fever,Cough,Fatigue,,80
+Bronchitis,27,Male,44.586,-96.781,Cough,Shortness of breath,,,70
+Migraine,57,Female,43.251,-99.042,Headache,Nausea,,,90
+Allergy,31,Male,45.129,-94.714,Itchy eyes,Skin rash,,50
+Flu,53,Female,47.837,-97.872,Cough,Shortness of breath,,,80
+Common Cold,22,Male,48.295,-97.349,Runny nose,Sneezing,,60
+Migraine,35,Female,44.903,-99.937,Headache,Nausea,,,90
+Allergy,68,Male,42.804,-94.554,Itchy eyes,Skin rash,,50
+Bronchitis,47,Female,49.168,-96.209,Cough,Shortness of breath,,,70
+Common Cold,45,Male,42.387,-95.223,Runny nose,Sneezing,,60
+Flu,63,Female,41.722,-97.154,Fever,Cough,Fatigue,,80
+Bronchitis,27,Male,44.586,-96.781,Cough,Shortness of breath,,,70
+Migraine,57,Female,43.251,-99.042,Headache,Nausea,,,90
+Allergy,31,Male,45.129,-94.714,Itchy eyes,Skin rash,,50
+Flu,53,Female,47.837,-97.872,Cough,Shortness of breath,,,80
+Common Cold,22,Male,48.295,-97.349,Runny nose,Sneezing,,60
+Migraine,35,Female,44.903,-99.937,Headache,Nausea,,,90
+Allergy,68,Male,42.804,-94.554,Itchy eyes,Skin rash,,50
+Bronchitis,47,Female,49.168,-96.209,Cough,Shortness of breath,,,70
+Migraine,41,Male,46.711,-95.619,Headache,Nausea,,,90
+Allergy,25,Female,42.975,-98.521,Itchy eyes,Skin rash,,50
+Common Cold,60,Male,47.512,-94.012,Runny nose,Sneezing,,60
+Flu,39,Female,44.187,-97.689,Fever,Cough,Fatigue,,80
+Bronchitis,55,Male,45.893,-96.845,Cough,Shortness of breath,,,70
+Migraine,29,Female,43.721,-99.315,Headache,Nausea,,,90
+Allergy,50,Male,48.061,-97.407,Itchy eyes,Skin rash,,50
+Flu,33,Female,42.256,-94.886,Cough,Shortness of breath,,,80
+Common Cold,58,Male,44.682,-97.932,Runny nose,Sneezing,,60
+Migraine,36,Female,46.309,-98.726,Headache,Nausea,,,90
+Common Cold,45,Male,42.387,-95.223,Runny nose,Sneezing,,60
+Flu,63,Female,41.722,-97.154,Fever,Cough,Fatigue,,80
+Bronchitis,27,Male,44.586,-96.781,Cough,Shortness of breath,,,70
+Migraine,57,Female,43.251,-99.042,Headache,Nausea,,,90
+Allergy,31,Male,45.129,-94.714,Itchy eyes,Skin rash,,50
+Flu,53,Female,47.837,-97.872,Cough,Shortness of breath,,,80
+Common Cold,22,Male,48.295,-97.349,Runny nose,Sneezing,,60
+Migraine,35,Female,44.903,-99.937,Headache,Nausea,,,90
+Allergy,68,Male,42.804,-94.554,Itchy eyes,Skin rash,,50
+Bronchitis,47,Female,49.168,-96.209,Cough,Shortness of breath,,,70
+Migraine,41,Male,46.711,-95.619,Headache,Nausea,,,90
+Allergy,25,Female,42.975,-98.521,Itchy eyes,Skin rash,,50
+Common Cold,60,Male,47.512,-94.012,Runny nose,Sneezing,,60
+Flu,39,Female,44.187,-97.689,Fever,Cough,Fatigue,,80
+Bronchitis,55,Male,45.893,-96.845,Cough,Shortness of breath,,,70
+Migraine,29,Female,43.721,-99.315,Headache,Nausea,,,90
+Allergy,50,Male,48.061,-97.407,Itchy eyes,Skin rash,,50
+Flu,33,Female,42.256,-94.886,Cough,Shortness of breath,,,80
+Common Cold,58,Male,44.682,-97.932,Runny nose,Sneezing,,60
+Migraine,36,Female,46.309,-98.726,Headache,Nausea,,,90
+Pneumonia,70,Male,41.396,-95.889,Fever,Cough,Shortness of breath,,85
+Sinusitis,48,Female,45.691,-96.681,Headache,Nasal congestion,Sinus pressure,,75
+Asthma,38,Male,47.026,-97.574,Shortness of breath,Wheezing,Cough,,80
+UTI,55,Female,42.893,-98.139,Frequent urination,Burning sensation during urination,,85
+Food Poisoning,25,Male,48.754,-97.268,Nausea,Vomiting,Stomach cramps,,70
+Lyme Disease,30,Female,44.267,-95.548,Fever,Joint pain,Rash,,90
+Anemia,50,Male,46.491,-99.016,Fatigue,Weakness,Paleness,,60
+Diabetes,65,Female,42.145,-94.305,Frequent urination,Increased thirst,Blurry vision,,75
+Hypertension,55,Male,47.819,-96.562,High blood pressure,Headache,Dizziness,,80
+Flu,63,Female,41.722,-97.154,Fever,Cough,Fatigue,,80
+Bronchitis,27,Male,44.586,-96.781,Cough,Shortness of breath,,,70
+Migraine,57,Female,43.251,-99.042,Headache,Nausea,,,90
+Allergy,31,Male,45.129,-94.714,Itchy eyes,Skin rash,,50
+Pneumonia,55,Female,41.396,-95.889,Fever,Cough,Shortness of breath,,85
+Sinusitis,48,Male,45.691,-96.681,Headache,Nasal congestion,Sinus pressure,,75
+Asthma,38,Female,47.026,-97.574,Shortness of breath,Wheezing,Cough,,80
+UTI,55,Male,42.893,-98.139,Frequent urination,Burning sensation during urination,,85
+Food Poisoning,25,Female,48.754,-97.268,Nausea,Vomiting,Stomach cramps,,70
+Lyme Disease,30,Male,44.267,-95.548,Fever,Joint pain,Rash,,90
+Anemia,50,Female,46.491,-99.016,Fatigue,Weakness,Paleness,,60
+Diabetes,65,Male,42.145,-94.305,Frequent urination,Increased thirst,Blurry vision,,75
+Hypertension,55,Female,47.819,-96.562,High blood pressure,Headache,Dizziness,,80
+Appendicitis,20,Male,45.921,-94.734,Abdominal pain,Nausea,Vomiting,,85
+Arthritis,70,Female,48.206,-96.091,Joint pain,Stiffness,Swelling,,70
+Meningitis,32,Male,44.992,-98.405,Headache,Fever,Stiff neck,,90
+Hepatitis,45,Female,46.713,-97.881,Jaundice,Fatigue,Abdominal pain,,75
+Stroke,60,Male,42.618,-95.826,Sudden weakness,Numbness,Dizziness,,90
+Heart Attack,55,Female,47.106,-96.382,Chest pain,Shortness of breath,Sweating,,95
+Kidney Stones,40,Male,45.382,-98.625,Flank pain,Blood in urine,Frequent urination,,80
+Migraine,35,Female,44.903,-99.937,Headache,Nausea,,,90
+Allergy,68,Male,42.804,-94.554,Itchy eyes,Skin rash,,50
+Bronchitis,47,Female,49.168,-96.209,Cough,Shortness of breath,,,70
+Eczema,25,Male,47.512,-94.012,Itchy skin,Redness,,50
+Gout,55,Female,44.903,-99.937,Joint pain,Swelling,Redness,,70
+Pneumothorax,33,Male,48.295,-97.349,Chest pain,Shortness of breath,,75
+Chickenpox,40,Female,42.975,-98.521,Fever,Rash,Itching,,65
+Conjunctivitis,30,Male,47.512,-94.012,Red eyes,Itching,,50
+Ear Infection,35,Female,44.903,-99.937,Ear pain,Fluid drainage,,60
+Gastroenteritis,50,Male,45.382,-98.625,Nausea,Vomiting,Diarrhea,,70
+GERD,45,Female,46.491,-99.016,Heartburn,Acid reflux,,60
+Flu,53,Male,44.267,-95.548,Fever,Cough,Fatigue,,80
+Hypothyroidism,60,Female,42.145,-94.305,Fatigue,Weight gain,Cold intolerance,,75
+IBS,35,Male,48.295,-97.349,Abdominal pain,Bloating,Diarrhea,,70
+Migraine,41,Female,46.711,-95.619,Headache,Nausea,,,90
+Osteoporosis,70,Male,41.722,-97.154,Bone pain,Fragility fractures,,65
+Pneumonia,55,Female,47.819,-96.562,Fever,Cough,Shortness of breath,,85
+Rheumatoid Arthritis,50,Male,45.129,-94.714,Joint pain,Stiffness,Swelling,,70
+Scoliosis,25,Female,48.295,-97.349,Back pain,Spinal curvature,,60
+Sleep Apnea,60,Male,42.387,-95.223,Loud snoring,Daytime sleepiness,,75
+Thyroid Cancer,45,Female,46.713,-97.881,Neck lump,Difficulty swallowing,,80
+Ulcerative Colitis,33,Male,48.295,-97.349,Abdominal pain,Diarrhea,Blood in stool,,70
+Varicose Veins,55,Female,44.903,-99.937,Leg swelling,Visible veins,,60
+Atrial Fibrillation,70,Male,41.722,-97.154,Irregular heartbeat,Fatigue,Dizziness,,85
+Celiac Disease,30,Female,44.267,-95.548,Abdominal pain,Bloating,Diarrhea,,70
+Endometriosis,35,Male,48.295,-97.349,Pelvic pain,Heavy periods,,60
+Glaucoma,60,Female,42.145,-94.305,Gradual vision loss,Eye pain,,75
+Hemorrhoids,55,Male,47.819,-96.562,Rectal bleeding,Itching,,80
+Osteoarthritis,50,Female,45.129,-94.714,Joint pain,Stiffness,,70
+Psoriasis,25,Male,48.295,-97.349,Red patches,Itching,,60
+Alzheimer's Disease,75,Female,42.387,-95.223,Memory loss,Confusion,Difficulty in problem-solving,,90
+Bell's Palsy,40,Male,41.722,-97.154,Facial droop,Difficulty in closing eye,Muscle weakness,,70
+Chronic Fatigue Syndrome,30,Female,44.586,-96.781,Fatigue,Muscle pain,Headache,,80
+COPD (Chronic Obstructive Pulmonary Disease),60,Male,43.251,-99.042,Shortness of breath,Chronic cough,Wheezing,,85
+Crohn's Disease,35,Female,45.129,-94.714,Abdominal pain,Diarrhea,Fatigue,,75
+Dengue Fever,25,Male,47.837,-97.872,Fever,Severe headache,Joint pain,,80
+Epilepsy,50,Female,48.295,-97.349,Seizures,Loss of consciousness,Confusion,,90
+Fibromyalgia,45,Male,42.804,-94.554,Chronic pain,Fatigue,Sleep disturbances,,70
+Gallstones,55,Female,49.168,-96.209,Abdominal pain,Nausea,Vomiting,,75
+GERD (Gastroesophageal Reflux Disease),50,Male,46.711,-95.619,Heartburn,Acid reflux,Chest pain,,80
+Hepatitis B,30,Female,42.975,-98.521,Jaundice,Abdominal pain,Fatigue,,85
+HIV/AIDS,35,Male,47.512,-94.012,Fever,Fatigue,Weight loss,,90
+Interstitial Cystitis,40,Female,44.903,-99.937,Bladder pain,Urinary urgency,Frequent urination,,75
+Leukemia,60,Male,41.396,-95.889,Fatigue,Easy bruising,Weight loss,,95
+Lung Cancer,65,Female,45.691,-96.681,Chronic cough,Shortness of breath,Chest pain,,90
+Menopause,50,Male,47.026,-97.574,Hot flashes,Night sweats,Irregular periods,,70
+Migraine,33,Female,42.893,-98.139,Severe headache,Nausea,Sensitivity to light,,80
+Multiple Myeloma,70,Male,48.754,-97.268,Bone pain,Fatigue,Weakness,,85
+Narcolepsy,25,Female,44.267,-95.548,Excessive daytime sleepiness,Cataplexy,Hallucinations during sleep,,75
+Ovarian Cancer,55,Male,42.145,-94.305,Abdominal bloating,Pelvic pain,Changes in bowel habits,,90
+Pancreatic Cancer,60,Female,47.819,-96.562,Abdominal pain,Jaundice,Weight loss,,95
+Polycystic Kidney Disease,45,Male,45.921,-94.734,Abdominal pain,Blood in urine,Kidney stones,,80
+Restless Legs Syndrome,35,Female,48.206,-96.091,Uncomfortable sensations in legs,Strong urge to move legs at rest,,60
+Rheumatoid Arthritis,55,Male,44.992,-98.405,Joint pain,Stiffness,Swelling,,70
+Sickle Cell Anemia,30,Female,46.713,-97.881,Chronic pain,Fatigue,Jaundice,,80
+Tuberculosis,40,Male,42.618,-95.826,Cough,Fever,Night sweats,,85
+Ulcerative Colitis,50,Female,47.106,-96.382,Abdominal pain,Diarrhea,Bloody stool,,90
+Vitamin D Deficiency,35,Male,45.382,-98.625,Weakness,Fatigue,Bone pain,,70
+West Nile Virus,25,Female,47.512,-94.012,Fever,Headache,Body aches,,75
+Yeast Infection,30,Male,46.491,-99.016,Itching,Genital redness,Discharge,,60
+Acne,20,Female,44.992,-98.405,Pimples,Blackheads,Whiteheads,,50
+Athlete's Foot,45,Male,41.396,-95.889,Itching between toes,Redness,Cracked skin,,60
+Bipolar Disorder,35,Female,45.691,-96.681,Mood swings,Mania,Depression,,80
+Celiac Disease,50,Male,47.026,-97.574,Abdominal pain,Bloating,Diarrhea,,70
+Chickenpox,25,Female,42.893,-98.139,Fever,Rash,Itching,,65
+Chlamydia,30,Male,48.754,-97.268,Painful urination,Abnormal discharge,,70
+Depression,55,Female,44.267,-95.548,Sadness,Loss of interest in activities,Difficulty sleeping,,80
+Eczema,40,Male,46.713,-97.881,Itchy skin,Redness,,50
+Gout,50,Female,42.618,-95.826,Joint pain,Swelling,Redness,,70
+Hemorrhoids,35,Male,45.382,-98.625,Rectal bleeding,Itching,,80
+Hepatitis C,60,Female,47.106,-96.382,Jaundice,Abdominal pain,Dark urine,,90
+HPV (Human Papillomavirus),45,Male,41.722,-97.154,Genital warts,Abnormal pap smear,,70
+Hypothyroidism,25,Female,44.586,-96.781,Fatigue,Weight gain,Cold intolerance,,75
+Lupus,35,Male,45.129,-94.714,Joint pain,Fatigue,Rash,,90
+Melanoma,50,Female,49.168,-96.209,Skin changes,Moles with irregular borders,,85
+Osteoarthritis,55,Male,46.711,-95.619,Joint pain,Stiffness,,70
+Osteoporosis,30,Female,42.975,-98.521,Bone fractures,Back pain,,60
+Pancreatitis,40,Male,48.295,-97.349,Abdominal pain,Nausea,Vomiting,,70
+Pink Eye (Conjunctivitis),25,Female,47.512,-94.012,Red eyes,Itching,,50
+Prostate Cancer,60,Male,42.893,-98.139,Urinary issues,Erectile dysfunction,Blood in semen,,90
+Schizophrenia,35,Female,44.903,-99.937,Delusions,Hallucinations,Social withdrawal,,80
+Shingles,70,Male,48.295,-97.349,Painful rash,Numbness,,85
+Sleep Apnea,45,Female,46.491,-99.016,Loud snoring,Daytime sleepiness,,75
+Thyroid Cancer,30,Male,48.206,-96.091,Neck lump,Difficulty swallowing,,80
+Tinnitus,50,Female,46.491,-99.016,Ringing in ears,Hearing loss,,60
+Urinary Tract Infection (UTI),35,Male,48.206,-96.091,Frequent urination,Burning sensation during urination,,70
+Vertigo,45,Female,44.903,-99.937,Dizziness,Nausea,Ear fullness,,80
+Warts,30,Male,48.295,-97.349,Skin growths,,Redness,,50
+Yeast Infection,25,Female,47.512,-94.012,Itching,Genital redness,Discharge,,60
+Appendicitis,20,Male,45.129,-94.714,Abdominal pain,Nausea,Vomiting,,85
+Bladder Cancer,60,Female,42.893,-98.139,Blood in urine,Frequent urination,Pelvic pain,,90
+Celiac Disease,50,Male,45.382,-98.625,Abdominal pain,Bloating,Diarrhea,,70
+Dermatitis,40,Female,42.975,-98.521,Skin inflammation,Itching,,50
+Esophageal Cancer,55,Male,44.267,-95.548,Difficulty swallowing,Chest pain,Weight loss,,80
+Fibroids,35,Female,46.491,-99.016,Heavy menstrual bleeding,Abdominal pain,,70
+Gastritis,45,Male,47.819,-96.562,Abdominal pain,Nausea,Vomiting,,75
+Hernia,50,Female,44.903,-99.937,Abdominal bulge,Pain or discomfort,,60
+Impetigo,25,Male,41.722,-97.154,Skin rash,Blisters,,50
+Jaundice,60,Female,42.145,-94.305,Yellowing of skin and eyes,Dark urine,,80
+Keloids,30,Male,44.586,-96.781,Overgrown scar,Tender,Itchy,,60
+Lactose Intolerance,40,Female,48.295,-97.349,Bloating,Diarrhea,Abdominal cramps,,70
+Migraine,33,Male,45.129,-94.714,Severe headache,Nausea,Sensitivity to light,,80
+Nephritis,55,Female,41.722,-97.154,Swelling,High blood pressure,Dark urine,,90
+Obesity,45,Male,42.893,-98.139,Weight gain,Inactivity,Excessive hunger,,65
+Parasitic Infection,35,Female,44.267,-95.548,Abdominal pain,Diarrhea,Nausea,,75
+Rickets,60,Male,48.206,-96.091,Bone pain,Muscle weakness,,70
+Sciatica,50,Female,44.903,-99.937,Lower back pain,Leg pain,Numbness,,80
+Tooth Abscess,25,Male,47.819,-96.562,Toothache,Swelling,,60
+Uterine Cancer,55,Female,42.975,-98.521,Abnormal vaginal bleeding,Pelvic pain,,90
+Vitamin B12 Deficiency,40,Male,45.382,-98.625,Fatigue,Weakness,Tingling sensation,,70
+Whooping Cough,35,Female,46.491,-99.016,Severe coughing fits,High-pitched "whoop" sound,,80
+Acid Reflux,50,Male,44.586,-96.781,Heartburn,Regurgitation,,70
+Asthma,30,Female,42.893,-98.139,Shortness of breath,Wheezing,Cough,,85
+Bacterial Vaginosis,45,Male,41.722,-97.154,Unusual vaginal discharge,Fishy odor,,75
+Cellulitis,60,Female,42.145,-94.305,Skin redness,Swelling,Tenderness,,90
+Depression,35,Male,45.129,-94.714,Sadness,Loss of interest in activities,Difficulty sleeping,,80
+Endometriosis,25,Female,47.512,-94.012,Pelvic pain,Heavy periods,,60
+Gout,55,Male,44.903,-99.937,Joint pain,Swelling,Redness,,70
+Hemorrhoids,35,Female,46.491,-99.016,Rectal bleeding,Itching,,80
+Hypothyroidism,60,Male,41.722,-97.154,Fatigue,Weight gain,Cold intolerance,,75
+Irritable Bowel Syndrome (IBS),45,Female,44.267,-95.548,Abdominal pain,Bloating,Diarrhea,,70
+Kidney Cancer,50,Male,48.206,-96.091,Blood in urine,Back pain,Weight loss,,85
+Lactose Intolerance,35,Female,44.903,-99.937,Bloating,Diarrhea,Abdominal cramps,,70
+Melanoma,40,Male,42.893,-98.139,Skin changes,Moles with irregular borders,,85
+Neuropathy,55,Female,41.722,-97.154,Numbness,Tingling,Weakness,,90
+Osteoarthritis,30,Male,45.129,-94.714,Joint pain,Stiffness,,70
+Pancreatitis,45,Female,44.903,-99.937,Abdominal pain,Nausea,Vomiting,,80
+Pink Eye (Conjunctivitis),25,Male,47.512,-94.012,Red eyes,Itching,,60
+Prostate Enlargement (BPH),60,Female,46.491,-99.016,Frequent urination,Urinary urgency,,75
+Rheumatoid Arthritis,35,Male,45.382,-98.625,Joint pain,Stiffness,Swelling,,80
+Sarcoidosis,50,Female,42.145,-94.305,Shortness of breath,Cough,Fatigue,,90
+Shingles,45,Male,41.722,-97.154,Painful rash,Numbness,,75
+Sleep Apnea,55,Female,44.267,-95.548,Loud snoring,Daytime sleepiness,,80
+Thyroid Disease,35,Male,48.206,-96.091,Fatigue,Weight changes,Difficulty concentrating,,70
+Ulcerative Colitis,40,Female,42.893,-98.139,Abdominal pain,Diarrhea,Blood in stool,,85
+Varicose Veins,50,Male,45.129,-94.714,Leg swelling,Visible veins,,70
+Acne,25,Female,47.512,-94.012,Pimples,Blackheads,Whiteheads,,50
+ADHD (Attention Deficit Hyperactivity Disorder),30,Male,44.586,-96.781,Inattention,Hyperactivity,Impulsivity,,70
+Alcoholism,45,Female,44.903,-99.937,Drinking problems,Withdrawal symptoms,,60
+Allergic Rhinitis,40,Male,45.129,-94.714,Sneezing,Runny nose,Itchy eyes,,70
+Alzheimer's Disease,65,Female,46.491,-99.016,Memory loss,Confusion,Difficulty in problem-solving,,90
+Anemia,50,Male,45.382,-98.625,Fatigue,Weakness,Paleness,,60
+Anorexia Nervosa,20,Female,48.295,-97.349,Extreme weight loss,Obsession with food intake,,80
+Anxiety Disorder,35,Male,47.819,-96.562,Excessive worrying,Panic attacks,,75
+Appendicitis,25,Female,42.893,-98.139,Abdominal pain,Nausea,Vomiting,,85
+Arthritis,60,Male,41.722,-97.154,Joint pain,Stiffness,Swelling,,70
+Asthma,40,Female,42.145,-94.305,Shortness of breath,Wheezing,Cough,,85
+Autism Spectrum Disorder,5,Male,42.618,-95.826,Difficulty in social interaction,Repetitive behavior,,90
+Back Pain,55,Female,47.106,-96.382,Lower back pain,Stiffness,,75
+Bipolar Disorder,30,Male,44.267,-95.548,Mood swings,Mania,Depression,,80
+Bladder Cancer,65,Female,45.691,-96.681,Blood in urine,Frequent urination,Pelvic pain,,90
+Brain Tumor,40,Male,48.206,-96.091,Headache,Seizures,Personality changes,,85
+Breast Cancer,50,Female,44.992,-98.405,Lump in breast,Nipple changes,,95
+Bronchitis,45,Male,44.267,-95.548,Cough,Shortness of breath,,,70
+Bulimia Nervosa,25,Female,47.512,-94.012,Binge eating,Compensatory behaviors,,80
+Carpal Tunnel Syndrome,35,Male,46.491,-99.016,Numbness,Tingling in fingers,,70
+Celiac Disease,55,Female,44.903,-99.937,Abdominal pain,Bloating,Diarrhea,,80
+Chlamydia,30,Male,41.722,-97.154,Painful urination,Abnormal discharge,,70
+Chronic Fatigue Syndrome,50,Female,42.893,-98.139,Fatigue,Muscle pain,Headache,,80
+Chronic Kidney Disease,65,Male,42.145,-94.305,Fatigue,Swelling,Shortness of breath,,90
+Chronic Obstructive Pulmonary Disease (COPD),60,Female,43.251,-99.042,Shortness of breath,Chronic cough,Wheezing,,85
+Colon Cancer,55,Male,45.382,-98.625,Change in bowel habits,Blood in stool,Abdominal pain,,90
+Congestive Heart Failure,70,Female,41.722,-97.154,Shortness of breath,Fatigue,Swelling in legs,,95
+Crohn's Disease,35,Male,44.586,-96.781,Abdominal pain,Diarrhea,Fatigue,,75
+Cystic Fibrosis,25,Female,47.819,-96.562,Chronic cough,Shortness of breath,Repeated lung infections,,80
+Dementia,70,Male,41.396,-95.889,Memory loss,Impaired reasoning,Personality changes,,90
+Depression,45,Female,46.713,-97.881,Depressed mood,Loss of interest in activities,Sleep disturbances,,75
+Diabetes,55,Male,44.992,-98.405,Increased thirst,Frequent urination,Blurred vision,,85
+Diverticulitis,50,Female,44.903,-99.937,Abdominal pain,Fever,Nausea,,80
+Down Syndrome,25,Male,41.722,-97.154,Intellectual disability,Distinctive facial features,,60
+Eczema,40,Female,42.145,-94.305,Itchy skin,Redness,,50
+Endometrial Cancer,60,Male,44.267,-95.548,Abnormal vaginal bleeding,Pelvic pain,,90
+Endometriosis,35,Female,45.691,-96.681,Pelvic pain,Heavy periods,,70
+Epilepsy,30,Male,44.903,-99.937,Seizures,Loss of consciousness,Confusion,,85
+Fibromyalgia,55,Female,42.893,-98.139,Chronic pain,Fatigue,Sleep disturbances,,80
+Gallstones,45,Male,45.129,-94.714,Abdominal pain,Nausea,Vomiting,,75
+Gastritis,60,Female,48.295,-97.349,Abdominal pain,Nausea,Vomiting,,90
+Gastroesophageal Reflux Disease (GERD),35,Male,46.491,-99.016,Heartburn,Regurgitation,,70
+Glaucoma,50,Female,45.382,-98.625,Gradual vision loss,Eye pain,,80
+Gout,55,Male,44.586,-96.781,Joint pain,Swelling,Redness,,70
+Graves' Disease,40,Female,47.819,-96.562,Weight loss,Rapid heartbeat,Tremors,,75
+Hashimoto's Thyroiditis,50,Male,44.267,-95.548,Fatigue,Weight gain,Joint pain,,80
+Hearing Loss,65,Female,46.713,-97.881,Difficulty hearing,Ringing in ears,,85
+Heart Attack,60,Male,41.722,-97.154,Chest pain,Shortness of breath,Sweating,,95
+Hemochromatosis,35,Female,42.893,-98.139,Joint pain,Fatigue,Abdominal pain,,80
+Hemorrhoids,45,Male,42.145,-94.305,Rectal bleeding,Itching,,70
+Hepatitis B,25,Female,44.903,-99.937,Jaundice,Abdominal pain,Fatigue,,85
+Hepatitis C,55,Male,45.382,-98.625,Jaundice,Abdominal pain,Dark urine,,90
+HIV/AIDS,30,Female,44.267,-95.548,Fever,Fatigue,Weight loss,,75
+Hyperthyroidism,45,Male,46.491,-99.016,Weight loss,Rapid heartbeat,Anxiety,,80
+Hypothyroidism,60,Female,47.512,-94.012,Fatigue,Weight gain,Cold intolerance,,75
+Inflammatory Bowel Disease (IBD),35,Male,48.295,-97.349,Abdominal pain,Diarrhea,Fatigue,,70
+Insomnia,50,Female,44.586,-96.781,Difficulty falling asleep,Difficulty staying asleep,,85
+Interstitial Cystitis,40,Male,42.618,-95.826,Bladder pain,Urinary urgency,Frequent urination,,80
+Irritable Bowel Syndrome (IBS),30,Female,45.129,-94.714,Abdominal pain,Bloating,Diarrhea,,70
+Kidney Stones,55,Male,47.106,-96.382,Flank pain,Blood in urine,Frequent urination,,90
+Leukemia,25,Female,46.713,-97.881,Fatigue,Easy bruising,Weight loss,,75
+Liver Cancer,60,Male,41.722,-97.154,Abdominal pain,Jaundice,Weight loss,,90
+Lung Cancer,55,Female,42.145,-94.305,Chronic cough,Shortness of breath,Chest pain,,85
+Lupus,35,Male,44.903,-99.937,Joint pain,Fatigue,Rash,,90
+Lyme Disease,40,Female,42.893,-98.139,Fever,Joint pain,Rash,,80
+Macular Degeneration,70,Male,41.722,-97.154,Blurry vision,Blind spots,,70
+Malaria,30,Female,44.586,-96.781,Fever,Chills,Sweating,,85
+Melanoma,45,Male,45.129,-94.714,Skin changes,Moles with irregular borders,,90
+Menopause,55,Female,47.819,-96.562,Hot flashes,Night sweats,Irregular periods,,75
+Migraine,30,Male,47.106,-96.382,Headache,Nausea,,80
+Multiple Sclerosis,50,Female,42.618,-95.826,Fatigue,Numbness,Weakness,,85
+Muscular Dystrophy,25,Male,44.267,-95.548,Muscle weakness,Muscle wasting,,70
+Narcolepsy,35,Female,46.713,-97.881,Excessive daytime sleepiness,Cataplexy,Hallucinations during sleep,,80
+Obesity,45,Male,42.145,-94.305,Weight gain,Inactivity,Excessive hunger,,65
+Obsessive-Compulsive Disorder (OCD),40,Female,45.691,-96.681,Obsessive thoughts,Compulsive behaviors,,70
+Osteoarthritis,60,Male,48.206,-96.091,Joint pain,Stiffness,,75
+Osteoporosis,55,Female,42.975,-98.521,Bone fractures,Back pain,,65
+Ovarian Cancer,50,Male,44.586,-96.781,Abdominal bloating,Pelvic pain,Changes in bowel habits,,90
+Pancreatic Cancer,65,Female,47.819,-96.562,Abdominal pain,Weight loss,Jaundice,,95
+Parkinson's Disease,70,Male,41.722,-97.154,Tremors,Rigidity,Bradykinesia,,90
+Peptic Ulcer Disease,35,Female,44.903,-99.937,Abdominal pain,Nausea,Vomiting,,80
+Peripheral Neuropathy,55,Male,45.382,-98.625,Numbness,Tingling,Weakness,,85
+Pneumonia,30,Female,42.145,-94.305,Fever,Cough,Shortness of breath,,75
+Polycystic Ovary Syndrome (PCOS),25,Male,46.491,-99.016,Irregular periods,Excess hair growth,Acne,,70
+Post-Traumatic Stress Disorder (PTSD),45,Female,47.512,-94.012,Flashbacks,Anxiety,Sleep disturbances,,80
+Psoriasis,50,Male,44.267,-95.548,Red patches,Itching,,70
+Rheumatoid Arthritis,35,Female,46.713,-97.881,Joint pain,Stiffness,Swelling,,85
+Rosacea,60,Male,41.722,-97.154,Redness,Visible blood vessels,,90
+Sarcoidosis,40,Female,44.586,-96.781,Shortness of breath,Cough,Fatigue,,80
+Schizophrenia,55,Male,44.903,-99.937,Delusions,Hallucinations,Social withdrawal,,85
+Sciatica,35,Female,42.893,-98.139,Lower back pain,Leg pain,Numbness,,75
+Sickle Cell Anemia,50,Male,45.129,-94.714,Chronic pain,Fatigue,Jaundice,,90
+Sinusitis,25,Female,47.106,-96.382,Headache,Nasal congestion,,60
+Skin Cancer,65,Male,42.618,-95.826,Skin changes,Unusual growths,,70
+Sleep Apnea,40,Female,44.267,-95.548,Loud snoring,Daytime sleepiness,,80
+Strep Throat,45,Male,45.691,-96.681,Sore throat,Fever,,75
+Stroke,55,Female,42.975,-98.521,Numbness,Weakness,Difficulty speaking,,90
+Testicular Cancer,30,Male,44.903,-99.937,Testicular lump,Scrotal swelling,,85
+Thyroid Cancer,60,Female,46.491,-99.016,Neck lump,Difficulty swallowing,,90
+Ulcerative Colitis,35,Male,41.722,-97.154,Abdominal pain,Diarrhea,Bloody stool,,80
+Urinary Tract Infection (UTI),50,Female,44.586,-96.781,Frequent urination,Burning sensation during urination,,85
+Uterine Fibroids,45,Male,47.106,-96.382,Heavy menstrual bleeding,Abdominal pain,,75
+Varicose Veins,55,Female,42.618,-95.826,Leg swelling,Visible veins,,80
+Vitamin D Deficiency,60,Male,45.129,-94.714,Weakness,Fatigue,Bone pain,,70
+Vulvodynia,35,Female,48.206,-96.091,Chronic vulvar pain,,Burning sensation,,80
+West Nile Virus,40,Male,44.267,-95.548,Fever,Headache,Body aches,,75
+Wilson's Disease,25,Female,47.819,-96.562,Abnormal copper accumulation,Liver problems,,90
+Yeast Infection,55,Male,42.975,-98.521,Itching,Genital redness,Discharge,,85
+Acne,25,Female,47.512,-94.012,Pimples,Blackheads,Whiteheads,,50
+ADHD (Attention Deficit Hyperactivity Disorder),30,Male,44.586,-96.781,Inattention,Hyperactivity,Impulsivity,,70
+Alcoholism,45,Female,44.903,-99.937,Drinking problems,Withdrawal symptoms,,60
+Allergic Rhinitis,40,Male,45.129,-94.714,Sneezing,Runny nose,Itchy eyes,,70
+Alzheimer's Disease,65,Female,46.491,-99.016,Memory loss,Confusion,Difficulty in problem-solving,,90
+Anemia,50,Male,45.382,-98.625,Fatigue,Weakness,Paleness,,60
+Anorexia Nervosa,20,Female,48.295,-97.349,Extreme weight loss,Obsession with food intake,,80
+Anxiety Disorder,35,Male,47.819,-96.562,Excessive worrying,Panic attacks,,75
+Appendicitis,25,Female,42.893,-98.139,Abdominal pain,Nausea,Vomiting,,85
+Arthritis,60,Male,41.722,-97.154,Joint pain,Stiffness,Swelling,,70
+Asthma,40,Female,42.145,-94.305,Shortness of breath,Wheezing,Cough,,85
+Autism Spectrum Disorder,5,Male,42.618,-95.826,Difficulty in social interaction,Repetitive behavior,,90
+Back Pain,55,Female,47.106,-96.382,Lower back pain,Stiffness,,75
+Bipolar Disorder,30,Male,44.267,-95.548,Mood swings,Mania,Depression,,80
+Bladder Cancer,65,Female,45.691,-96.681,Blood in urine,Frequent urination,Pelvic pain,,90
+Brain Tumor,40,Male,48.206,-96.091,Headache,Seizures,Personality changes,,85
+Breast Cancer,50,Female,44.992,-98.405,Lump in breast,Nipple changes,,95
+Bronchitis,45,Male,44.267,-95.548,Cough,Shortness of breath,,,70
+Bulimia Nervosa,25,Female,47.512,-94.012,Binge eating,Compensatory behaviors,,80
+Carpal Tunnel Syndrome,35,Male,46.491,-99.016,Numbness,Tingling in fingers,,70
+Celiac Disease,55,Female,44.903,-99.937,Abdominal pain,Bloating,Diarrhea,,80
+Chlamydia,30,Male,41.722,-97.154,Painful urination,Abnormal discharge,,70
+Chronic Fatigue Syndrome,50,Female,42.893,-98.139,Fatigue,Muscle pain,Headache,,80
+Chronic Kidney Disease,65,Male,42.145,-94.305,Fatigue,Swelling,Shortness of breath,,90
+Chronic Obstructive Pulmonary Disease (COPD),60,Female,43.251,-99.042,Shortness of breath,Chronic cough,Wheezing,,85
+Colon Cancer,55,Male,45.382,-98.625,Change in bowel habits,Blood in stool,Abdominal pain,,90
+Congestive Heart Failure,70,Female,41.722,-97.154,Shortness of breath,Fatigue,Swelling in legs,,95
+Crohn's Disease,35,Male,44.586,-96.781,Abdominal pain,Diarrhea,Fatigue,,75
+Cystic Fibrosis,25,Female,47.819,-96.562,Chronic cough,Shortness of breath,Repeated lung infections,,80
+Dementia,70,Male,41.396,-95.889,Memory loss,Impaired reasoning,Personality changes,,90
+Depression,45,Female,46.713,-97.881,Depressed mood,Loss of interest in activities,Sleep disturbances,,75
+Diabetes,55,Male,44.992,-98.405,Increased thirst,Frequent urination,Blurred vision,,85
+Diverticulitis,50,Female,44.903,-99.937,Abdominal pain,Fever,Nausea,,80
+Down Syndrome,25,Male,41.722,-97.154,Intellectual disability,Distinctive facial features,,60
+Eczema,40,Female,42.145,-94.305,Itchy skin,Redness,,50
+Endometrial Cancer,60,Male,44.267,-95.548,Abnormal vaginal bleeding,Pelvic pain,,90
+Endometriosis,35,Female,45.691,-96.681,Pelvic pain,Heavy periods,,70
+Epilepsy,30,Male,44.903,-99.937,Seizures,Loss of consciousness,Confusion,,85
+Fibromyalgia,55,Female,42.893,-98.139,Chronic pain,Fatigue,Sleep disturbances,,80
+Gallstones,45,Male,45.129,-94.714,Abdominal pain,Nausea,Vomiting,,75
+Gastritis,60,Female,48.295,-97.349,Abdominal pain,Nausea,Vomiting,,90
+Gastroesophageal Reflux Disease (GERD),35,Male,46.491,-99.016,Heartburn,Regurgitation,,70
+Glaucoma,50,Female,45.382,-98.625,Gradual vision loss,Eye pain,,80
+Gout,55,Male,44.586,-96.781,Joint pain,Swelling,Redness,,70
+Graves' Disease,40,Female,47.819,-96.562,Weight loss,Rapid heartbeat,Tremors,,75
+Hashimoto's Thyroiditis,50,Male,44.267,-95.548,Fatigue,Weight gain,Joint pain,,80
+Hearing Loss,65,Female,46.713,-97.881,Difficulty hearing,Ringing in ears,,85
+Heart Attack,60,Male,41.722,-97.154,Chest pain,Shortness of breath,Sweating,,95
+Hemochromatosis,35,Female,42.893,-98.139,Joint pain,Fatigue,Abdominal pain,,80
+Hemorrhoids,45,Male,42.145,-94.305,Rectal bleeding,Itching,,70
+Hepatitis B,25,Female,44.903,-99.937,Jaundice,Abdominal pain,Fatigue,,85
+Hepatitis C,55,Male,45.382,-98.625,Jaundice,Abdominal pain,Dark urine,,90
+HIV/AIDS,30,Female,44.267,-95.548,Fever,Fatigue,Weight loss,,75
+Hyperthyroidism,45,Male,46.491,-99.016,Weight loss,Rapid heartbeat,Anxiety,,80
+Hypothyroidism,60,Female,47.512,-94.012,Fatigue,Weight gain,Cold intolerance,,75
+Inflammatory Bowel Disease (IBD),35,Male,48.295,-97.349,Abdominal pain,Diarrhea,Fatigue,,70
+Insomnia,50,Female,44.586,-96.781,Difficulty falling asleep,Difficulty staying asleep,,85
+Interstitial Cystitis,40,Male,42.618,-95.826,Bladder pain,Urinary urgency,Frequent urination,,80
+Irritable Bowel Syndrome (IBS),30,Female,45.129,-94.714,Abdominal pain,Bloating,Diarrhea,,70
+Kidney Stones,55,Male,47.106,-96.382,Flank pain,Blood in urine,Frequent urination,,90
+Leukemia,25,Female,46.713,-97.881,Fatigue,Easy bruising,Weight loss,,75
+Liver Cancer,60,Male,41.722,-97.154,Abdominal pain,Jaundice,Weight loss,,90
+Lung Cancer,55,Female,42.145,-94.305,Chronic cough,Shortness of breath,Chest pain,,85
+Lupus,35,Male,44.903,-99.937,Joint pain,Fatigue,Rash,,90
+Lyme Disease,40,Female,42.893,-98.139,Fever,Joint pain,Rash,,80
+Macular Degeneration,70,Male,41.722,-97.154,Blurry vision,Blind spots,,70
+Malaria,30,Female,44.586,-96.781,Fever,Chills,Sweating,,85
+Melanoma,45,Male,45.129,-94.714,Skin changes,Moles with irregular borders,,90
+Menopause,55,Female,47.819,-96.562,Hot flashes,Night sweats,Irregular periods,,75
+Migraine,30,Male,47.106,-96.382,Headache,Nausea,,80
+Multiple Sclerosis,50,Female,42.618,-95.826,Fatigue,Numbness,Weakness,,85
+Muscular Dystrophy,25,Male,44.267,-95.548,Muscle weakness,Muscle wasting,,70
+Narcolepsy,35,Female,46.713,-97.881,Excessive daytime sleepiness,Cataplexy,Hallucinations during sleep,,80
+Obesity,45,Male,42.145,-94.305,Weight gain,Inactivity,Excessive hunger,,65
+Obsessive-Compulsive Disorder (OCD),40,Female,45.691,-96.681,Obsessive thoughts,Compulsive behaviors,,70
+Osteoarthritis,60,Male,48.206,-96.091,Joint pain,Stiffness,,75
+Osteoporosis,55,Female,42.975,-98.521,Bone fractures,Back pain,,65
+Ovarian Cancer,50,Male,44.586,-96.781,Abdominal bloating,Pelvic pain,Changes in bowel habits,,90
+Pancreatic Cancer,65,Female,47.819,-96.562,Abdominal pain,Weight loss,Jaundice,,95
+Parkinson's Disease,70,Male,41.722,-97.154,Tremors,Rigidity,Bradykinesia,,90
+Peptic Ulcer Disease,35,Female,44.903,-99.937,Abdominal pain,Nausea,Vomiting,,80
+Peripheral Neuropathy,55,Male,45.382,-98.625,Numbness,Tingling,Weakness,,85
+Pneumonia,30,Female,42.145,-94.305,Fever,Cough,Shortness of breath,,75
+Polycystic Ovary Syndrome (PCOS),25,Male,46.491,-99.016,Irregular periods,Excess hair growth,Acne,,70
+Post-Traumatic Stress Disorder (PTSD),45,Female,47.512,-94.012,Flashbacks,Anxiety,Sleep disturbances,,80
+Psoriasis,50,Male,44.267,-95.548,Red patches,Itching,,70
+Acid Reflux,45,Female,46.491,-99.016,Heartburn,Regurgitation,,70
+Acne,30,Male,44.267,-95.548,Pimples,Blackheads,Whiteheads,,50
+ADHD (Attention Deficit Hyperactivity Disorder),25,Female,47.819,-96.562,Inattention,Hyperactivity,Impulsivity,,80
+Alcoholism,50,Male,45.129,-94.714,Drinking problems,Withdrawal symptoms,,60
+Allergic Rhinitis,35,Female,44.903,-99.937,Sneezing,Runny nose,Itchy eyes,,70
+Alzheimer's Disease,70,Male,41.722,-97.154,Memory loss,Confusion,Difficulty in problem-solving,,90
+Anemia,40,Female,42.893,-98.139,Fatigue,Weakness,Paleness,,60
+Anorexia Nervosa,25,Male,46.491,-99.016,Extreme weight loss,Obsession with food intake,,80
+Anxiety Disorder,35,Female,46.713,-97.881,Excessive worrying,Panic attacks,,75
+Appendicitis,30,Male,44.903,-99.937,Abdominal pain,Nausea,Vomiting,,85
+Arthritis,65,Female,47.512,-94.012,Joint pain,Stiffness,Swelling,,70
+Asthma,40,Male,44.586,-96.781,Shortness of breath,Wheezing,Cough,,85
+Autism Spectrum Disorder,10,Female,44.267,-95.548,Difficulty in social interaction,Repetitive behavior,,90
+Back Pain,55,Male,45.382,-98.625,Lower back pain,Stiffness,,75
+Bipolar Disorder,35,Female,44.586,-96.781,Mood swings,Mania,Depression,,80
+Bladder Cancer,65,Male,42.975,-98.521,Blood in urine,Frequent urination,Pelvic pain,,90
+Brain Tumor,45,Female,44.903,-99.937,Headache,Seizures,Personality changes,,85
+Breast Cancer,50,Male,46.491,-99.016,Lump in breast,Nipple changes,,95
+Bronchitis,45,Female,47.819,-96.562,Cough,Shortness of breath,,,70
+Bulimia Nervosa,30,Male,45.129,-94.714,Binge eating,Compensatory behaviors,,80
+Carpal Tunnel Syndrome,35,Female,44.267,-95.548,Numbness,Tingling in fingers,,70
+Celiac Disease,55,Male,42.618,-95.826,Abdominal pain,Bloating,Diarrhea,,80
+Chlamydia,30,Female,44.267,-95.548,Painful urination,Abnormal discharge,,70
+Chronic Fatigue Syndrome,50,Male,45.382,-98.625,Fatigue,Muscle pain,Headache,,80
+Chronic Kidney Disease,70,Female,41.722,-97.154,Fatigue,Swelling,Shortness of breath,,90
+Chronic Obstructive Pulmonary Disease (COPD),60,Male,42.145,-94.305,Shortness of breath,Chronic cough,Wheezing,,85
+Colon Cancer,55,Female,46.713,-97.881,Change in bowel habits,Blood in stool,Abdominal pain,,90
+Congestive Heart Failure,75,Male,44.903,-99.937,Shortness of breath,Fatigue,Swelling in legs,,95
+Crohn's Disease,40,Female,42.893,-98.139,Abdominal pain,Diarrhea,Fatigue,,75
+Cystic Fibrosis,30,Male,44.586,-96.781,Chronic cough,Shortness of breath,Repeated lung infections,,80
+Dementia,75,Female,47.512,-94.012,Memory loss,Impaired reasoning,Personality changes,,90
+Depression,45,Male,45.382,-98.625,Depressed mood,Loss of interest in activities,Sleep disturbances,,75
+Diabetes,60,Female,41.722,-97.154,Increased thirst,Frequent urination,Blurred vision,,85
+Diverticulitis,55,Male,42.618,-95.826,Abdominal pain,Fever,Nausea,,80
+Down Syndrome,30,Female,44.903,-99.937,Intellectual disability,Distinctive facial features,,60
+Eczema,45,Male,41.722,-97.154,Itchy skin,Redness,,50
+Endometrial Cancer,60,Female,44.267,-95.548,Abnormal vaginal bleeding,Pelvic pain,,90
+Endometriosis,35,Male,45.691,-96.681,Pelvic pain,Heavy periods,,70
+Epilepsy,30,Female,47.819,-96.562,Seizures,Loss of consciousness,Confusion,,85
+Fibromyalgia,60,Male,42.145,-94.305,Chronic pain,Fatigue,Sleep disturbances,,80
+Gallstones,50,Female,44.586,-96.781,Abdominal pain,Nausea,Vomiting,,75
+Gastritis,65,Male,47.512,-94.012,Abdominal pain,Nausea,Vomiting,,90
+Gastroesophageal Reflux Disease (GERD),35,Female,42.618,-95.826,Heartburn,Regurgitation,,70
+Glaucoma,55,Male,41.722,-97.154,Gradual vision loss,Eye pain,,80
+Gout,40,Female,42.893,-98.139,Joint pain,Swelling,Redness,,70
+Graves' Disease,45,Male,44.267,-95.548,Weight loss,Rapid heartbeat,Tremors,,75
+Hashimoto's Thyroiditis,60,Female,44.903,-99.937,Fatigue,Weight gain,Joint pain,,80
+Hearing Loss,70,Male,41.722,-97.154,Difficulty hearing,Ringing in ears,,85
+Heart Attack,75,Female,47.512,-94.012,Chest pain,Shortness of breath,Sweating,,95
+Hemochromatosis,35,Male,47.819,-96.562,Joint pain,Fatigue,Abdominal pain,,80
+Hemorrhoids,50,Female,44.586,-96.781,Rectal bleeding,Itching,,70
+Hepatitis B,25,Male,42.618,-95.826,Jaundice,Abdominal pain,Fatigue,,85
+Hepatitis C,55,Female,42.145,-94.305,Jaundice,Abdominal pain,Dark urine,,90
+HIV/AIDS,30,Male,45.382,-98.625,Fever,Fatigue,Weight loss,,75
+Hyperthyroidism,45,Female,47.512,-94.012,Weight loss,Rapid heartbeat,Anxiety,,80
+Hypothyroidism,60,Male,41.722,-97.154,Fatigue,Weight gain,Cold intolerance,,75
+Inflammatory Bowel Disease (IBD),35,Female,44.903,-99.937,Abdominal pain,Diarrhea,Fatigue,,70
+Insomnia,50,Male,42.618,-95.826,Difficulty falling asleep,Difficulty staying asleep,,85
+Interstitial Cystitis,40,Female,45.129,-94.714,Bladder pain,Urinary urgency,Frequent urination,,80
+Irritable Bowel Syndrome (IBS),35,Male,46.491,-99.016,Abdominal pain,Bloating,Diarrhea,,70
+Kidney Stones,55,Female,44.267,-95.548,Flank pain,Blood in urine,Frequent urination,,90
+Leukemia,25,Male,44.903,-99.937,Fatigue,Easy bruising,Weight loss,,75
+Liver Cancer,60,Female,44.586,-96.781,Abdominal pain,Jaundice,Weight loss,,90
+Lung Cancer,55,Male,47.819,-96.562,Chronic cough,Shortness of breath,Chest pain,,85
+Lupus,35,Female,42.618,-95.826,Joint pain,Fatigue,Rash,,90
+Lyme Disease,40,Male,45.129,-94.714,Fever,Joint pain,Rash,,80
+Macular Degeneration,70,Female,41.722,-97.154,Blurry vision,Blind spots,,70
+Malaria,30,Male,44.903,-99.937,Fever,Chills,Sweating,,85
+Melanoma,45,Female,42.145,-94.305,Skin changes,Moles with irregular borders,,90
+Menopause,55,Male,42.618,-95.826,Hot flashes,Night sweats,Irregular periods,,75
+Migraine,30,Female,44.267,-95.548,Headache,Nausea,,80
+Multiple Sclerosis,50,Male,45.382,-98.625,Fatigue,Numbness,Weakness,,85
+Muscular Dystrophy,25,Female,47.512,-94.012,Muscle weakness,Muscle wasting,,70
+Narcolepsy,35,Male,46.713,-97.881,Excessive daytime sleepiness,Cataplexy,Hallucinations during sleep,,80
+Obesity,45,Female,46.491,-99.016,Weight gain,Inactivity,Excessive hunger,,65
+Obsessive-Compulsive Disorder (OCD),40,Male,44.586,-96.781,Obsessive thoughts,Compulsive behaviors,,70
+Osteoarthritis,60,Female,42.618,-95.826,Joint pain,Stiffness,,75
+Osteoporosis,55,Male,44.903,-99.937,Bone fractures,Back pain,,65
+Ovarian Cancer,50,Female,42.145,-94.305,Abdominal bloating,Pelvic pain,Changes in bowel habits,,90
+Pancreatic Cancer,65,Male,41.722,-97.154,Abdominal pain,Weight loss,Jaundice,,95
+Parkinson's Disease,70,Female,44.267,-95.548,Tremors,Rigidity,Bradykinesia,,90
+Peptic Ulcer Disease,35,Male,47.819,-96.562,Abdominal pain,Nausea,Vomiting,,80
+Peripheral Neuropathy,55,Female,45.129,-94.714,Numbness,Tingling,Weakness,,85
+Pneumonia,30,Male,45.382,-98.625,Fever,Cough,Shortness of breath,,75
+Polycystic Ovary Syndrome (PCOS),25,Female,46.491,-99.016,Irregular periods,Excess hair growth,Acne,,70
+Post-Traumatic Stress Disorder (PTSD),45,Male,44.267,-95.548,Flashbacks,Anxiety,Sleep disturbances,,80
+Psoriasis,50,Female,42.618,-95.826,Red patches,Itching,,70
+Rheumatoid Arthritis,35,Male,42.893,-98.139,Joint pain,Stiffness,Swelling,,85
+Rosacea,60,Female,44.903,-99.937,Redness,Visible blood vessels,,90
+Sarcoidosis,40,Male,46.491,-99.016,Shortness of breath,Cough,Fatigue,,80
+Schizophrenia,55,Female,45.382,-98.625,Delusions,Hallucinations,Social withdrawal,,85
+Sciatica,35,Male,44.267,-95.548,Lower back pain,Leg pain,Numbness,,75
+Sickle Cell Anemia,50,Female,44.586,-96.781,Chronic pain,Fatigue,Jaundice,,90
+Sinusitis,25,Male,47.819,-96.562,Headache,Nasal congestion,,60
+Skin Cancer,65,Female,42.618,-95.826,Skin changes,Unusual growths,,70
+Sleep Apnea,40,Male,45.129,-94.714,Loud snoring,Daytime sleepiness,,80
+Strep Throat,45,Female,41.722,-97.154,Sore throat,Fever,,75
+Stroke,55,Male,44.903,-99.937,Numbness,Weakness,Difficulty speaking,,90
+Testicular Cancer,30,Female,44.267,-95.548,Testicular lump,Scrotal swelling,,85
+Thyroid Cancer,60,Male,46.491,-99.016,Neck lump,Difficulty swallowing,,90
+Ulcerative Colitis,35,Female,44.903,-99.937,Abdominal pain,Diarrhea,Bloody stool,,80
+Urinary Tract Infection (UTI),50,Male,45.129,-94.714,Frequent urination,Burning sensation during urination,,85
+Uterine Fibroids,45,Female,42.618,-95.826,Heavy menstrual bleeding,Abdominal pain,,75
+Varicose Veins,55,Male,47.819,-96.562,Leg swelling,Visible veins,,80
+Vitamin D Deficiency,60,Female,44.903,-99.937,Weakness,Fatigue,Bone pain,,70
+Vulvodynia,35,Male,44.586,-96.781,Chronic vulvar pain,,Burning sensation,,80
+West Nile Virus,40,Female,41.722,-97.154,Fever,Headache,Body aches,,75
+Wilson's Disease,25,Male,45.382,-98.625,Abnormal copper accumulation,Liver problems,,90
+Yeast Infection,55,Female,47.512,-94.012,Itching,Genital redness,Discharge,,85
+Acid Reflux,45,Female,46.491,-99.016,Heartburn,Regurgitation,,70
+Acne,30,Male,44.267,-95.548,Pimples,Blackheads,Whiteheads,,50
+ADHD (Attention Deficit Hyperactivity Disorder),25,Female,47.819,-96.562,Inattention,Hyperactivity,Impulsivity,,80
+Alcoholism,50,Male,45.129,-94.714,Drinking problems,Withdrawal symptoms,,60
+Allergic Rhinitis,35,Female,44.903,-99.937,Sneezing,Runny nose,Itchy eyes,,70
+Alzheimer's Disease,70,Male,41.722,-97.154,Memory loss,Confusion,Difficulty in problem-solving,,90
+Anemia,40,Female,42.893,-98.139,Fatigue,Weakness,Paleness,,60
+Anorexia Nervosa,25,Male,46.491,-99.016,Extreme weight loss,Obsession with food intake,,80
+Anxiety Disorder,35,Female,46.713,-97.881,Excessive worrying,Panic attacks,,75
+Appendicitis,30,Male,44.903,-99.937,Abdominal pain,Nausea,Vomiting,,85
+Arthritis,65,Female,47.512,-94.012,Joint pain,Stiffness,Swelling,,70
+Asthma,40,Male,44.586,-96.781,Shortness of breath,Wheezing,Cough,,85
+Autism Spectrum Disorder,10,Female,44.267,-95.548,Difficulty in social interaction,Repetitive behavior,,90
+Back Pain,55,Male,45.382,-98.625,Lower back pain,Stiffness,,75
+Bipolar Disorder,35,Female,44.586,-96.781,Mood swings,Mania,Depression,,80
+Bladder Cancer,65,Male,42.975,-98.521,Blood in urine,Frequent urination,Pelvic pain,,90
+Brain Tumor,45,Female,44.903,-99.937,Headache,Seizures,Personality changes,,85
+Breast Cancer,50,Male,46.491,-99.016,Lump in breast,Nipple changes,,95
+Bronchitis,45,Female,47.819,-96.562,Cough,Shortness of breath,,,70
+Bulimia Nervosa,30,Male,45.129,-94.714,Binge eating,Compensatory behaviors,,80
+Carpal Tunnel Syndrome,35,Female,44.267,-95.548,Numbness,Tingling in fingers,,70
+Celiac Disease,55,Male,42.618,-95.826,Abdominal pain,Bloating,Diarrhea,,80
+Chlamydia,30,Female,44.267,-95.548,Painful urination,Abnormal discharge,,70
+Chronic Fatigue Syndrome,50,Male,45.382,-98.625,Fatigue,Muscle pain,Headache,,80
+Chronic Kidney Disease,70,Female,41.722,-97.154,Fatigue,Swelling,Shortness of breath,,90
+Chronic Obstructive Pulmonary Disease (COPD),60,Male,42.145,-94.305,Shortness of breath,Chronic cough,Wheezing,,85
+Colon Cancer,55,Female,46.713,-97.881,Change in bowel habits,Blood in stool,Abdominal pain,,90
+Congestive Heart Failure,75,Male,44.903,-99.937,Shortness of breath,Fatigue,Swelling in legs,,95
+Crohn's Disease,40,Female,42.893,-98.139,Abdominal pain,Diarrhea,Fatigue,,75
+Cystic Fibrosis,30,Male,44.586,-96.781,Chronic cough,Shortness of breath,Repeated lung infections,,80
+Dementia,75,Female,47.512,-94.012,Memory loss,Impaired reasoning,Personality changes,,90
+Depression,45,Male,45.382,-98.625,Depressed mood,Loss of interest in activities,Sleep disturbances,,75
+Diabetes,60,Female,41.722,-97.154,Increased thirst,Frequent urination,Blurred vision,,85
+Diverticulitis,55,Male,42.618,-95.826,Abdominal pain,Fever,Nausea,,80
+Down Syndrome,30,Female,44.903,-99.937,Intellectual disability,Distinctive facial features,,60
+Eczema,45,Male,41.722,-97.154,Itchy skin,Redness,,50
+Endometrial Cancer,60,Female,44.267,-95.548,Abnormal vaginal bleeding,Pelvic pain,,90
+Endometriosis,35,Male,45.691,-96.681,Pelvic pain,Heavy periods,,70
+Epilepsy,30,Female,47.819,-96.562,Seizures,Loss of consciousness,Confusion,,85
+Fibromyalgia,60,Male,42.145,-94.305,Chronic pain,Fatigue,Sleep disturbances,,80
+Gallstones,50,Female,44.586,-96.781,Abdominal pain,Nausea,Vomiting,,75
+Gastritis,65,Male,47.512,-94.012,Abdominal pain,Nausea,Vomiting,,90
+Gastroesophageal Reflux Disease (GERD),35,Female,42.618,-95.826,Heartburn,Regurgitation,,70
+Glaucoma,55,Male,41.722,-97.154,Gradual vision loss,Eye pain,,80
+Gout,40,Female,42.893,-98.139,Joint pain,Swelling,Redness,,70
+Graves' Disease,45,Male,44.267,-95.548,Weight loss,Rapid heartbeat,Tremors,,75
+Hashimoto's Thyroiditis,60,Female,44.903,-99.937,Fatigue,Weight gain,Joint pain,,80
+Hearing Loss,70,Male,41.722,-97.154,Difficulty hearing,Ringing in ears,,85
+Heart Attack,75,Female,47.512,-94.012,Chest pain,Shortness of breath,Sweating,,95
+Hemochromatosis,35,Male,47.819,-96.562,Joint pain,Fatigue,Abdominal pain,,80
+Hemorrhoids,50,Female,44.586,-96.781,Rectal bleeding,Itching,,70
+Hepatitis B,25,Male,42.618,-95.826,Jaundice,Abdominal pain,Fatigue,,85
+Hepatitis C,55,Female,42.145,-94.305,Jaundice,Abdominal pain,Dark urine,,90
+HIV/AIDS,30,Male,45.382,-98.625,Fever,Fatigue,Weight loss,,75
+Hyperthyroidism,45,Female,47.512,-94.012,Weight loss,Rapid heartbeat,Anxiety,,80
+Hypothyroidism,60,Male,41.722,-97.154,Fatigue,Weight gain,Cold intolerance,,75
+Inflammatory Bowel Disease (IBD),35,Female,44.903,-99.937,Abdominal pain,Diarrhea,Fatigue,,70
+Insomnia,50,Male,42.618,-95.826,Difficulty falling asleep,Difficulty staying asleep,,85
+Interstitial Cystitis,40,Female,45.129,-94.714,Bladder pain,Urinary urgency,Frequent urination,,80
+Irritable Bowel Syndrome (IBS),35,Male,46.491,-99.016,Abdominal pain,Bloating,Diarrhea,,70
+Kidney Stones,55,Female,44.267,-95.548,Flank pain,Blood in urine,Frequent urination,,90
+Leukemia,25,Male,44.903,-99.937,Fatigue,Easy bruising,Weight loss,,75
+Liver Cancer,60,Female,44.586,-96.781,Abdominal pain,Jaundice,Weight loss,,90
+Lung Cancer,55,Male,47.819,-96.562,Chronic cough,Shortness of breath,Chest pain,,85
+Lupus,35,Female,42.618,-95.826,Joint pain,Fatigue,Rash,,90
+Lyme Disease,40,Male,45.129,-94.714,Fever,Joint pain,Rash,,80
+Macular Degeneration,70,Female,41.722,-97.154,Blurry vision,Blind spots,,70
+Malaria,30,Male,44.903,-99.937,Fever,Chills,Sweating,,85
+Melanoma,45,Female,42.145,-94.305,Skin changes,Moles with irregular borders,,90
+Menopause,55,Male,42.618,-95.826,Hot flashes,Night sweats,Irregular periods,,75
+Migraine,30,Female,44.267,-95.548,Headache,Nausea,,80
+Multiple Sclerosis,50,Male,45.382,-98.625,Fatigue,Numbness,Weakness,,85
+Muscular Dystrophy,25,Female,47.512,-94.012,Muscle weakness,Muscle wasting,,70
+Narcolepsy,35,Male,46.713,-97.881,Excessive daytime sleepiness,Cataplexy,Hallucinations during sleep,,80
+Obesity,45,Female,46.491,-99.016,Weight gain,Inactivity,Excessive hunger,,65
+Obsessive-Compulsive Disorder (OCD),40,Male,44.586,-96.781,Obsessive thoughts,Compulsive behaviors,,70
+Osteoarthritis,60,Female,42.618,-95.826,Joint pain,Stiffness,,75
+Osteoporosis,55,Male,44.903,-99.937,Bone fractures,Back pain,,65
+Ovarian Cancer,50,Female,42.145,-94.305,Abdominal bloating,Pelvic pain,Changes in bowel habits,,90
+Pancreatic Cancer,65,Male,41.722,-97.154,Abdominal pain,Weight loss,Jaundice,,95
+Parkinson's Disease,70,Female,44.267,-95.548,Tremors,Rigidity,Bradykinesia,,90
+Peptic Ulcer Disease,35,Male,47.819,-96.562,Abdominal pain,Nausea,Vomiting,,80
+Peripheral Neuropathy,55,Female,45.129,-94.714,Numbness,Tingling,Weakness,,85
+Pneumonia,30,Male,45.382,-98.625,Fever,Cough,Shortness of breath,,75
+Polycystic Ovary Syndrome (PCOS),25,Female,46.491,-99.016,Irregular periods,Excess hair growth,Acne,,70
+Post-Traumatic Stress Disorder (PTSD),45,Male,44.267,-95.548,Flashbacks,Anxiety,Sleep disturbances,,80
+Psoriasis,50,Female,42.618,-95.826,Red patches,Itching,,70
+Rheumatoid Arthritis,35,Male,42.893,-98.139,Joint pain,Stiffness,Swelling,,85
+Rosacea,60,Female,44.903,-99.937,Redness,Visible blood vessels,,90
+Sarcoidosis,40,Male,46.491,-99.016,Shortness of breath,Cough,Fatigue,,80
+Schizophrenia,55,Female,45.382,-98.625,Delusions,Hallucinations,Social withdrawal,,85
+Sciatica,35,Male,44.267,-95.548,Lower back pain,Leg pain,Numbness,,75
+Sickle Cell Anemia,50,Female,44.586,-96.781,Chronic pain,Fatigue,Jaundice,,90
+Sinusitis,25,Male,47.819,-96.562,Headache,Nasal congestion,,60
+Skin Cancer,65,Female,42.618,-95.826,Skin changes,Unusual growths,,70
+Sleep Apnea,40,Male,45.129,-94.714,Loud snoring,Daytime sleepiness,,80
+Strep Throat,45,Female,41.722,-97.154,Sore throat,Fever,,75
+Stroke,55,Male,44.903,-99.937,Numbness,Weakness,Difficulty speaking,,90
+Testicular Cancer,30,Female,44.267,-95.548,Testicular lump,Scrotal swelling,,85
+Thyroid Cancer,60,Male,46.491,-99.016,Neck lump,Difficulty swallowing,,90
+Ulcerative Colitis,35,Female,44.903,-99.937,Abdominal pain,Diarrhea,Bloody stool,,80
+Urinary Tract Infection (UTI),50,Male,45.129,-94.714,Frequent urination,Burning sensation during urination,,85
+Uterine Fibroids,45,Female,42.618,-95.826,Heavy menstrual bleeding,Abdominal pain,,75
+Varicose Veins,55,Male,47.819,-96.562,Leg swelling,Visible veins,,80
+Vitamin D Deficiency,60,Female,44.903,-99.937,Weakness,Fatigue,Bone pain,,70
+Vulvodynia,35,Male,44.586,-96.781,Chronic vulvar pain,,Burning sensation,,80
+West Nile Virus,40,Female,41.722,-97.154,Fever,Headache,Body aches,,75
+Wilson's Disease,25,Male,45.382,-98.625,Abnormal copper accumulation,Liver problems,,90
+Yeast Infection,55,Female,47.512,-94.012,Itching,Genital redness,Discharge,,85
+Acid Reflux,45,Female,46.491,-99.016,Heartburn,Regurgitation,,70
+Acne,30,Male,44.267,-95.548,Pimples,Blackheads,Whiteheads,,50
+ADHD (Attention Deficit Hyperactivity Disorder),25,Female,47.819,-96.562,Inattention,Hyperactivity,Impulsivity,,80
+Alcoholism,50,Male,45.129,-94.714,Drinking problems,Withdrawal symptoms,,60
+Allergic Rhinitis,35,Female,44.903,-99.937,Sneezing,Runny nose,Itchy eyes,,70
+Alzheimer's Disease,70,Male,41.722,-97.154,Memory loss,Confusion,Difficulty in problem-solving,,90
+Anemia,40,Female,42.893,-98.139,Fatigue,Weakness,Paleness,,60
+Anorexia Nervosa,25,Male,46.491,-99.016,Extreme weight loss,Obsession with food intake,,80
+Anxiety Disorder,35,Female,46.713,-97.881,Excessive worrying,Panic attacks,,75
+Appendicitis,30,Male,44.903,-99.937,Abdominal pain,Nausea,Vomiting,,85
+Arthritis,65,Female,47.512,-94.012,Joint pain,Stiffness,Swelling,,70
+Asthma,40,Male,44.586,-96.781,Shortness of breath,Wheezing,Cough,,85
+Autism Spectrum Disorder,10,Female,44.267,-95.548,Difficulty in social interaction,Repetitive behavior,,90
+Back Pain,55,Male,45.382,-98.625,Lower back pain,Stiffness,,75
+Bipolar Disorder,35,Female,44.586,-96.781,Mood swings,Mania,Depression,,80
+Bladder Cancer,65,Male,42.975,-98.521,Blood in urine,Frequent urination,Pelvic pain,,90
+Brain Tumor,45,Female,44.903,-99.937,Headache,Seizures,Personality changes,,85
+Breast Cancer,50,Male,46.491,-99.016,Lump in breast,Nipple changes,,95
+Bronchitis,45,Female,47.819,-96.562,Cough,Shortness of breath,,,70
+Bulimia Nervosa,30,Male,45.129,-94.714,Binge eating,Compensatory behaviors,,80
+Carpal Tunnel Syndrome,35,Female,44.267,-95.548,Numbness,Tingling in fingers,,70
+Celiac Disease,55,Male,42.618,-95.826,Abdominal pain,Bloating,Diarrhea,,80
+Chlamydia,30,Female,44.267,-95.548,Painful urination,Abnormal discharge,,70
+Chronic Fatigue Syndrome,50,Male,45.382,-98.625,Fatigue,Muscle pain,Headache,,80
+Chronic Kidney Disease,70,Female,41.722,-97.154,Fatigue,Swelling,Shortness of breath,,90
+Chronic Obstructive Pulmonary Disease (COPD),60,Male,42.145,-94.305,Shortness of breath,Chronic cough,Wheezing,,85
+Colon Cancer,55,Female,46.713,-97.881,Change in bowel habits,Blood in stool,Abdominal pain,,90
+Congestive Heart Failure,75,Male,44.903,-99.937,Shortness of breath,Fatigue,Swelling in legs,,95
+Crohn's Disease,40,Female,42.893,-98.139,Abdominal pain,Diarrhea,Fatigue,,75
+Cystic Fibrosis,30,Male,44.586,-96.781,Chronic cough,Shortness of breath,Repeated lung infections,,80
+Dementia,75,Female,47.512,-94.012,Memory loss,Impaired reasoning,Personality changes,,90
+Depression,45,Male,45.382,-98.625,Depressed mood,Loss of interest in activities,Sleep disturbances,,75
+Diabetes,60,Female,41.722,-97.154,Increased thirst,Frequent urination,Blurred vision,,85
+Diverticulitis,55,Male,42.618,-95.826,Abdominal pain,Fever,Nausea,,80
+Down Syndrome,30,Female,44.903,-99.937,Intellectual disability,Distinctive facial features,,60
+Eczema,45,Male,41.722,-97.154,Itchy skin,Redness,,50
+Endometrial Cancer,60,Female,44.267,-95.548,Abnormal vaginal bleeding,Pelvic pain,,90
+Endometriosis,35,Male,45.691,-96.681,Pelvic pain,Heavy periods,,70
+Epilepsy,30,Female,47.819,-96.562,Seizures,Loss of consciousness,Confusion,,85
+Fibromyalgia,60,Male,42.145,-94.305,Chronic pain,Fatigue,Sleep disturbances,,80
+Gallstones,50,Female,44.586,-96.781,Abdominal pain,Nausea,Vomiting,,75
+Gastritis,65,Male,47.512,-94.012,Abdominal pain,Nausea,Vomiting,,90
+Gastroesophageal Reflux Disease (GERD),35,Female,42.618,-95.826,Heartburn,Regurgitation,,70
+Glaucoma,55,Male,41.722,-97.154,Gradual vision loss,Eye pain,,80
+Gout,40,Female,42.893,-98.139,Joint pain,Swelling,Redness,,70
+Graves' Disease,45,Male,44.267,-95.548,Weight loss,Rapid heartbeat,Tremors,,75
+Hashimoto's Thyroiditis,60,Female,44.903,-99.937,Fatigue,Weight gain,Joint pain,,80
+Hearing Loss,70,Male,41.722,-97.154,Difficulty hearing,Ringing in ears,,85
+Heart Attack,75,Female,47.512,-94.012,Chest pain,Shortness of breath,Sweating,,95
+Hemochromatosis,35,Male,47.819,-96.562,Joint pain,Fatigue,Abdominal pain,,80
+Hemorrhoids,50,Female,44.586,-96.781,Rectal bleeding,Itching,,70
+Hepatitis B,25,Male,42.618,-95.826,Jaundice,Abdominal pain,Fatigue,,85
+Hepatitis C,55,Female,42.145,-94.305,Jaundice,Abdominal pain,Dark urine,,90
+HIV/AIDS,30,Male,45.382,-98.625,Fever,Fatigue,Weight loss,,75
+Hyperthyroidism,45,Female,47.512,-94.012,Weight loss,Rapid heartbeat,Anxiety,,80
+Hypothyroidism,60,Male,41.722,-97.154,Fatigue,Weight gain,Cold intolerance,,75
+Inflammatory Bowel Disease (IBD),35,Female,44.903,-99.937,Abdominal pain,Diarrhea,Fatigue,,70
+Insomnia,50,Male,42.618,-95.826,Difficulty falling asleep,Difficulty staying asleep,,85
+Interstitial Cystitis,40,Female,45.129,-94.714,Bladder pain,Urinary urgency,Frequent urination,,80
+Irritable Bowel Syndrome (IBS),35,Male,46.491,-99.016,Abdominal pain,Bloating,Diarrhea,,70
+Kidney Stones,55,Female,44.267,-95.548,Flank pain,Blood in urine,Frequent urination,,90
+Leukemia,25,Male,44.903,-99.937,Fatigue,Easy bruising,Weight loss,,75
+Liver Cancer,60,Female,44.586,-96.781,Abdominal pain,Jaundice,Weight loss,,90
+Lung Cancer,55,Male,47.819,-96.562,Chronic cough,Shortness of breath,Chest pain,,85
+Lupus,35,Female,42.618,-95.826,Joint pain,Fatigue,Rash,,90
+Lyme Disease,40,Male,45.129,-94.714,Fever,Joint pain,Rash,,80
+Macular Degeneration,70,Female,41.722,-97.154,Blurry vision,Blind spots,,70
+Malaria,30,Male,44.903,-99.937,Fever,Chills,Sweating,,85
+Melanoma,45,Female,42.145,-94.305,Skin changes,Moles with irregular borders,,90
+Menopause,55,Male,42.618,-95.826,Hot flashes,Night sweats,Irregular periods,,75
+Migraine,30,Female,44.267,-95.548,Headache,Nausea,,80
+Multiple Sclerosis,50,Male,45.382,-98.625,Fatigue,Numbness,Weakness,,85
+Muscular Dystrophy,25,Female,47.512,-94.012,Muscle weakness,Muscle wasting,,70
+Narcolepsy,35,Male,46.713,-97.881,Excessive daytime sleepiness,Cataplexy,Hallucinations during sleep,,80
+Obesity,45,Female,46.491,-99.016,Weight gain,Inactivity,Excessive hunger,,65
+Obsessive-Compulsive Disorder (OCD),40,Male,44.586,-96.781,Obsessive thoughts,Compulsive behaviors,,70
+Osteoarthritis,60,Female,42.618,-95.826,Joint pain,Stiffness,,75
+Osteoporosis,55,Male,44.903,-99.937,Bone fractures,Back pain,,65
+Ovarian Cancer,50,Female,42.145,-94.305,Abdominal bloating,Pelvic pain,Changes in bowel habits,,90
+Pancreatic Cancer,65,Male,41.722,-97.154,Abdominal pain,Weight loss,Jaundice,,95
+Parkinson's Disease,70,Female,44.267,-95.548,Tremors,Rigidity,Bradykinesia,,90
+Peptic Ulcer Disease,35,Male,47.819,-96.562,Abdominal pain,Nausea,Vomiting,,80
+Peripheral Neuropathy,55,Female,45.129,-94.714,Numbness,Tingling,Weakness,,85
+Pneumonia,30,Male,45.382,-98.625,Fever,Cough,Shortness of breath,,75
+Polycystic Ovary Syndrome (PCOS),25,Female,46.491,-99.016,Irregular periods,Excess hair growth,Acne,,70
+Post-Traumatic Stress Disorder (PTSD),45,Male,44.267,-95.548,Flashbacks,Anxiety,Sleep disturbances,,80
+Psoriasis,50,Female,42.618,-95.826,Red patches,Itching,,70
+Rheumatoid Arthritis,35,Male,42.893,-98.139,Joint pain,Stiffness,Swelling,,85
+Rosacea,60,Female,44.903,-99.937,Redness,Visible blood vessels,,90
+Sarcoidosis,40,Male,46.491,-99.016,Shortness of breath,Cough,Fatigue,,80
+Schizophrenia,55,Female,45.382,-98.625,Delusions,Hallucinations,Social withdrawal,,85
+Sciatica,35,Male,44.267,-95.548,Lower back pain,Leg pain,Numbness,,75
+Sickle Cell Anemia,50,Female,44.586,-96.781,Chronic pain,Fatigue,Jaundice,,90
+Sinusitis,25,Male,47.819,-96.562,Headache,Nasal congestion,,60
+Skin Cancer,65,Female,42.618,-95.826,Skin changes,Unusual growths,,70
+Sleep Apnea,40,Male,45.129,-94.714,Loud snoring,Daytime sleepiness,,80
+Strep Throat,45,Female,41.722,-97.154,Sore throat,Fever,,75
+Stroke,55,Male,44.903,-99.937,Numbness,Weakness,Difficulty speaking,,90
+Testicular Cancer,30,Female,44.267,-95.548,Testicular lump,Scrotal swelling,,85
+Thyroid Cancer,60,Male,46.491,-99.016,Neck lump,Difficulty swallowing,,90
+Ulcerative Colitis,35,Female,44.903,-99.937,Abdominal pain,Diarrhea,Bloody stool,,80
+Urinary Tract Infection (UTI),50,Male,45.129,-94.714,Frequent urination,Burning sensation during urination,,85
+Uterine Fibroids,45,Female,42.618,-95.826,Heavy menstrual bleeding,Abdominal pain,,75
+Varicose Veins,55,Male,47.819,-96.562,Leg swelling,Visible veins,,80
+Vitamin D Deficiency,60,Female,44.903,-99.937,Weakness,Fatigue,Bone pain,,70
+Vulvodynia,35,Male,44.586,-96.781,Chronic vulvar pain,,Burning sensation,,80
+West Nile Virus,40,Female,41.722,-97.154,Fever,Headache,Body aches,,75
+Wilson's Disease,25,Male,45.382,-98.625,Abnormal copper accumulation,Liver problems,,90
+Yeast Infection,55,Female,47.512,-94.012,Itching,Genital redness,Discharge,,85
+Acoustic Neuroma,50,Female,42.975,-98.521,Hearing loss,Tinnitus,Dizziness,,80
+Agoraphobia,35,Male,44.267,-95.548,Fear of public places,Panic attacks,,75
+Amyotrophic Lateral Sclerosis (ALS),60,Female,44.586,-96.781,Muscle weakness,Difficulty speaking,Difficulty swallowing,,90
+Angina,55,Male,47.819,-96.562,Chest pain,Shortness of breath,,85
+Ankylosing Spondylitis,40,Female,44.903,-99.937,Back pain,Stiffness,,70
+Aplastic Anemia,25,Male,46.491,-99.016,Fatigue,Shortness of breath,Pale skin,,80
+Autoimmune Hepatitis,45,Female,44.267,-95.548,Fatigue,Abdominal pain,Jaundice,,75
+Binge Eating Disorder,30,Male,45.129,-94.714,Episodic overeating,Feelings of guilt,,70
+Biphasic Mesothelioma,55,Female,44.586,-96.781,Chest pain,Shortness of breath,,85
+Bulging Disc,35,Male,46.491,-99.016,Back pain,Numbness,Tingling,,70
+Chronic Pancreatitis,50,Female,42.618,-95.826,Abdominal pain,Nausea,Vomiting,,75
+Cluster Headaches,45,Male,44.267,-95.548,Severe headache,Tearing eye,,80
+Complex Regional Pain Syndrome (CRPS),40,Female,42.893,-98.139,Severe pain,Swelling,Changes in skin color,,75
+Congenital Heart Defects,35,Male,44.586,-96.781,Heart murmur,Shortness of breath,Fatigue,,80
+Coronary Artery Disease,60,Female,41.722,-97.154,Chest pain,Shortness of breath,,85
+Cushing's Syndrome,45,Male,45.382,-98.625,Weight gain,High blood pressure,Muscle weakness,,90
+Diabetic Neuropathy,55,Female,44.903,-99.937,Numbness,Tingling,Pain,,85
+Dilated Cardiomyopathy,40,Male,44.267,-95.548,Shortness of breath,Fatigue,Swelling in legs,,80
+Duchenne Muscular Dystrophy,25,Female,47.819,-96.562,Muscle weakness,Difficulty walking,,70
+Encephalitis,50,Male,45.129,-94.714,Fever,Headache,Confusion,,75
+Esophageal Cancer,55,Female,42.618,-95.826,Difficulty swallowing,Chest pain,Unintended weight loss,,90
+Fragile X Syndrome,30,Male,45.382,-98.625,Intellectual disability,Behavioral challenges,,80
+Gastroparesis,35,Female,42.893,-98.139,Nausea,Vomiting,Abdominal pain,,75
+Hantavirus Pulmonary Syndrome,40,Male,42.145,-94.305,Fever,Muscle aches,Shortness of breath,,80
+Hypoparathyroidism,45,Female,46.713,-97.881,Numbness,Tingling,Muscle cramps,,85
+Interstitial Lung Disease,60,Male,42.618,-95.826,Shortness of breath,Dry cough,Clubbing of fingers,,90
+Juvenile Rheumatoid Arthritis,35,Female,44.267,-95.548,Joint pain,Swelling,Stiffness,,85
+Kawasaki Disease,25,Male,47.819,-96.562,Fever,Red eyes,Rash,,70
+Lactose Intolerance,50,Female,44.586,-96.781,Bloating,Abdominal cramps,Diarrhea,,75
+Lewy Body Dementia,55,Male,47.512,-94.012,Mental decline,Visual hallucinations,Movement disorders,,80
+Mesothelioma,40,Female,46.713,-97.881,Shortness of breath,Chest pain,Unexplained weight loss,,85
+Migratory Arthritis,35,Male,46.491,-99.016,Joint pain,Swelling,Redness,,70
+Mitral Valve Prolapse,45,Female,41.722,-97.154,Heart palpitations,Chest pain,Fatigue,,75
+Motor Neuron Disease,60,Male,42.618,-95.826,Muscle weakness,Speech difficulty,,80
+Myasthenia Gravis,35,Female,44.903,-99.937,Muscle weakness,Fatigue,Drooping eyelids,,70
+Nephrotic Syndrome,25,Male,45.129,-94.714,Swelling (edema),Foamy urine,Weight gain,,75
+Neurofibromatosis,50,Female,42.618,-95.826,Neurological problems,Visible tumors,,80
+Obstructive Sleep Apnea,45,Male,44.903,-99.937,Loud snoring,Daytime sleepiness,,85
+Oral Cancer,60,Female,44.267,-95.548,Mouth sore,Difficulty chewing or swallowing,,90
+Osteogenesis Imperfecta,35,Male,45.691,-96.681,Frequent bone fractures,Weakness,Short stature,,85
+Panic Disorder,30,Female,47.512,-94.012,Recurrent panic attacks,Fear of future attacks,,70
+Paranoid Schizophrenia,45,Male,44.586,-96.781,Delusions,Hallucinations,Suspicion,,75
+Patellofemoral Pain Syndrome,55,Female,44.903,-99.937,Knee pain,Difficulty kneeling,Stiffness,,80
+Pelvic Inflammatory Disease (PID),40,Male,41.722,-97.154,Abdominal pain,Fever,Vaginal discharge,,75
+Pernicious Anemia,50,Female,42.618,-95.826,Fatigue,Weakness,Shortness of breath,,80
+Polymyalgia Rheumatica,60,Male,44.267,-95.548,Stiffness,Shoulder pain,Hip pain,,85
+Porphyria,35,Female,42.893,-98.139,Abdominal pain,Neurological symptoms,,70
+Postpartum Depression,45,Male,44.267,-95.548,Sadness,Fatigue,Difficulty bonding with baby,,75
+Restless Legs Syndrome (RLS),55,Female,44.586,-96.781,Uncomfortable sensation in legs,Constant urge to move legs,,80
+Sjogren's Syndrome,35,Male,46.491,-99.016,Dry eyes,Dry mouth,Fatigue,,85
+Spinal Muscular Atrophy,25,Female,44.903,-99.937,Weakness,Difficulty walking,Breathing problems,,70
+Temporomandibular Joint Disorder (TMJ),50,Male,45.129,-94.714,Jaw pain,Difficulty chewing,,75
+Tourette Syndrome,55,Female,47.819,-96.562,Tics (involuntary movements or sounds),,,80
+Turner Syndrome,40,Male,42.145,-94.305,Short stature,Webbed neck,,85
