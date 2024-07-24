@@ -9,6 +9,8 @@ import {
   IconButton,
   VStack,
   Image,
+  useColorMode,
+  useColorModeValue,
 } from "@chakra-ui/react";
 import {
   FaBars,
@@ -17,16 +19,22 @@ import {
   FaQuestionCircle,
   FaBlog,
   FaPlus,
+  FaMoon,
+  FaSun,
 } from "react-icons/fa";
 import { useRouter } from "next/router";
 
 const Navbar = () => {
   const router = useRouter();
   const [isOpen, setIsOpen] = useState(false);
+  const { toggleColorMode } = useColorMode();
+  const bg = useColorModeValue("gray.900", "white");
+  const color = useColorModeValue("white", "gray.900");
 
   const handleToggle = () => {
     setIsOpen(!isOpen);
   };
+
   const handleLogin = () => {
     router.push("/login"); // Navigate to the login page
   };
@@ -38,8 +46,10 @@ const Navbar = () => {
       justify="space-between"
       wrap="wrap"
       p={4}
-      bg="gray.900"
-      color="white"
+      bg={bg}
+      color={color}
+      boxShadow="lg"
+      zIndex="10"
     >
       {/* Logo and Title */}
       <Flex align="center">
@@ -62,7 +72,8 @@ const Navbar = () => {
         onClick={handleToggle}
         aria-label="Toggle navigation"
         variant="ghost"
-        color="white"
+        color={color}
+        _hover={{ bg: useColorModeValue("gray.700", "gray.200") }}
       />
 
       {/* Links Section */}
@@ -84,8 +95,9 @@ const Navbar = () => {
             display="flex"
             ml={{ md: "35px" }}
             mt={{ base: "15px" }}
-            _hover="color:blue"
             alignItems="center"
+            _hover={{ color: "teal.400" }}
+            _focus={{ boxShadow: "outline" }}
           >
             <Icon as={FaHome} mr={2} />
             Home
@@ -95,8 +107,9 @@ const Navbar = () => {
             display="flex"
             ml={{ md: "35px" }}
             mt={{ base: "15px" }}
-            _hover="color:blue"
             alignItems="center"
+            _hover={{ color: "teal.400" }}
+            _focus={{ boxShadow: "outline" }}
           >
             <Icon as={FaQuestionCircle} mr={2} />
             Enquiry
@@ -106,8 +119,9 @@ const Navbar = () => {
             display="flex"
             ml={{ md: "35px" }}
             mt={{ base: "15px" }}
-            _hover="color:blue"
             alignItems="center"
+            _hover={{ color: "teal.400" }}
+            // _focus={{ boxShadow: "outline" }}
           >
             <Icon as={FaBlog} mr={2} />
             Blog
@@ -117,8 +131,9 @@ const Navbar = () => {
             display="flex"
             ml={{ md: "35px" }}
             mt={{ base: "15px" }}
-            _hover="color:blue"
             alignItems="center"
+            _hover={{ color: "teal.400" }}
+            _focus={{ boxShadow: "outline" }}
           >
             <Icon as={FaPlus} mr={2} />
             What&apos;s New
@@ -126,22 +141,29 @@ const Navbar = () => {
         </Flex>
       </Box>
 
-      {/* Purchase Button */}
-      <Box
-        display={{ base: isOpen ? "block" : "none", md: "block" }}
-        textAlign={{ base: "center", md: "right" }}
-        width={{ base: "full", md: "auto" }}
-      >
+      {/* Theme Toggle and Login Button */}
+      <Flex alignItems="center">
+        <IconButton
+          aria-label="Toggle theme"
+          icon={useColorModeValue(<FaMoon />, <FaSun />)}
+          onClick={toggleColorMode}
+          variant="ghost"
+          color={color}
+          _hover={{ bg: useColorModeValue("gray.700", "gray.200") }}
+          mr={4}
+        />
         <Button
           colorScheme="teal"
           variant="outline"
+          display={{ base: isOpen ? "block" : "none", md: "block" }}
           mt={{ base: 4, md: 0 }}
           mx="auto"
           onClick={handleLogin} // Handle click event to navigate to login page
+          _hover={{ bg: useColorModeValue("teal.600", "teal.300") }}
         >
           Login
         </Button>
-      </Box>
+      </Flex>
     </Flex>
   );
 };

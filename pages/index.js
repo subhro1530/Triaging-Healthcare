@@ -10,11 +10,13 @@ const HeroSection = dynamic(() => import("../components/HeroSection"), {
 const ChatbotIntro = dynamic(() => import("../components/ChatbotIntro"), {
   ssr: false,
 });
+const EmergencyCall = dynamic(() => import("../components/EmergencyCall"), {
+  ssr: false,
+});
 const Footer = dynamic(() => import("../components/Footer"), { ssr: false });
-const SymptomForm = dynamic(
-  () => import("../components/SymptomForm"),
-  { ssr: false }
-);
+const SymptomForm = dynamic(() => import("../components/SymptomForm"), {
+  ssr: false,
+});
 
 const Home = () => {
   return (
@@ -22,6 +24,7 @@ const Home = () => {
       <ColorModeScript initialColorMode="dark" />
       <Navbar />
       <HeroSection />
+      <EmergencyCall />
       <ChatbotIntro />
       <SymptomForm /> {/* Add SymptomForm component here */}
       <Footer />

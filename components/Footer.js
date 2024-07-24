@@ -8,8 +8,9 @@ const Footer = () => {
     <Box as="footer" py={8} bg="gray.800" color="white">
       {/* Contact and Social Links */}
       <Flex
+        direction={{ base: "column", md: "row" }}
         justify={{ base: "center", md: "space-between" }}
-        align="flex-start"
+        align={{ base: "center", md: "flex-start" }}
         flexWrap="wrap"
         px={{ base: 4, md: 0 }}
         maxW="1200px"
@@ -31,12 +32,12 @@ const Footer = () => {
           </Flex>
           <Flex align="center" mb={4}>
             <Icon as={FiMail} mr={2} />
-            <Text>shaswata.ssaha@.com</Text>
+            <Text>shaswata.ssaha@gmail.com</Text>
           </Flex>
         </Box>
 
         {/* Right part: Social Links and Newsletter Subscription */}
-        <Box flex="1">
+        <Box flex="1" textAlign={{ base: "center", md: "right" }}>
           {/* LinkedIn icon/link */}
           <Flex justify="center" mb={4}>
             <Link

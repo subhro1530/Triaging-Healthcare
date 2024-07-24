@@ -13,12 +13,14 @@ const theme = extendTheme({
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      {/* Set up Google Fonts link */}
+      {/* Set up Google Fonts link and favicon */}
       <Head>
         <link
           rel="stylesheet"
           href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
         />
+        <link rel="icon" href="/logo.png" /> {/* Set favicon */}
+        <title>Transforming Your Medical Needs</title> {/* Set page title */}
       </Head>
 
       {/* Apply custom theme and CSS reset */}
