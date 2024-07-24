@@ -1,6 +1,7 @@
 import { useState } from "react";
-import { Box, Heading, Button, Text, VStack, Spinner } from "@chakra-ui/react";
+import { Box, Heading, Button, Text, SimpleGrid, Spinner } from "@chakra-ui/react";
 import { motion } from "framer-motion";
+import Tilt from 'react-parallax-tilt';
 
 const EnquiryComponent = () => {
   const [userLocation, setUserLocation] = useState(null);
@@ -60,12 +61,6 @@ const EnquiryComponent = () => {
                 address: `${hospital.tags["addr:street"] || ""} ${hospital.tags["addr:housenumber"] || ""}`.trim(),
                 phone: hospital.tags.phone || "N/A",
                 email: hospital.tags.email || "N/A",
-                locationDetails: {
-                  city: locationDetails.city || locationDetails.town || locationDetails.village || "Unknown",
-                  state: locationDetails.state || "Unknown",
-                  country: locationDetails.country || "Unknown",
-                  postalCode: locationDetails.postcode || "Unknown",
-                },
               }));
             setNearbyHospitals(hospitals);
           } else {
@@ -86,7 +81,7 @@ const EnquiryComponent = () => {
       p={4}
       bg="black"
       color="white"
-      height="100vh"
+      minHeight="100vh"
       display="flex"
       flexDirection="column"
       justifyContent="center"
@@ -106,46 +101,51 @@ const EnquiryComponent = () => {
       </Button>
       {loading && <Spinner size="xl" color="teal.500" />}
       {userLocation && (
-        <Box mb={4} textAlign="center">
-          <Text>Your Location:</Text>
-          <Text>Latitude: {userLocation.latitude}</Text>
-          <Text>Longitude: {userLocation.longitude}</Text>
-        </Box>
+        <motion.div
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5 }}
+          mb={4}
+        >
+          <Box textAlign="center" p={4} bg="gray.800" borderRadius="md" boxShadow="lg">
+            <Text fontSize="lg">Your Location:</Text>
+            <Text>Latitude: {userLocation.latitude}</Text>
+            <Text>Longitude: {userLocation.longitude}</Text>
+          </Box>
+        </motion.div>
       )}
       {nearbyHospitals.length > 0 && (
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
+          width="100%"
         >
-          <VStack
-            spacing={4}
-            overflowY="scroll"
-            maxHeight="50vh"
-            width="100%"
-            p={4}
-            bg="gray.800"
-            borderRadius="md"
-            boxShadow="lg"
-          >
+          <SimpleGrid columns={[1, 2, 3]} spacing={6} width="100%">
             {nearbyHospitals.map((hospital, index) => (
-              <Box key={index} p={4} bg="gray.700" borderRadius="md" width="100%">
-                <Heading as="h2" size="md" mb={2}>
-                  {hospital.name}
-                </Heading>
-                <Text>Address: {hospital.address}</Text>
-                <Text>Phone: {hospital.phone}</Text>
-                <Text>Email: {hospital.email}</Text>
-                <Box mt={2}>
-                  <Text>Location Details:</Text>
-                  <Text>City: {hospital.locationDetails.city}</Text>
-                  <Text>State: {hospital.locationDetails.state}</Text>
-                  <Text>Country: {hospital.locationDetails.country}</Text>
-                  <Text>Postal Code: {hospital.locationDetails.postalCode}</Text>
+              <Tilt key={index} glareEnable={true} glareMaxOpacity={0.8} glareColor="#ffffff" glarePosition="all">
+                <Box
+                  p={4}
+                  bg="gray.700"
+                  borderRadius="md"
+                  boxShadow="lg"
+                  overflow="hidden"
+                  transition="all 0.3s ease-in-out"
+                  _hover={{
+                    bg: "gray.600",
+                    transform: "scale(1.05) rotate(1deg)",
+                  }}
+                >
+                  <Heading as="h2" size="md" mb={2}>
+                    {hospital.name}
+                  </Heading>
+                  <Text>Address: {hospital.address}</Text>
+                  <Text>Phone: {hospital.phone}</Text>
+                  <Text>Email: {hospital.email}</Text>
                 </Box>
-              </Box>
+              </Tilt>
             ))}
-          </VStack>
+          </SimpleGrid>
         </motion.div>
       )}
       {error && (
