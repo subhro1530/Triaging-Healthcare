@@ -95,14 +95,14 @@ const EmergencyCall = () => {
             <>
               <Button
                 as="a"
-                href="tel:911"
+                href="tel:100"
                 colorScheme="red"
                 size="lg"
                 leftIcon={<Icon as={FaPhoneAlt} />}
                 _hover={{ bg: "red.600" }}
                 mb={4}
               >
-                Call 911 Now
+                Call to Book
               </Button>
               <Button
                 as="a"
