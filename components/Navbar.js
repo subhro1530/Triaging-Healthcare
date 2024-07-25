@@ -53,7 +53,7 @@ const Navbar = () => {
     >
       {/* Logo and Title */}
       <Flex align="center">
-        <Image src="/logo.png" alt="Logo" width="56px" mr={2} />
+        <Image src="/logo.png" alt="Logo" width="56px" mr={{ base: 0, md: 2 }} />
         <Heading
           as="h3"
           ml={-3}
@@ -73,7 +73,9 @@ const Navbar = () => {
         aria-label="Toggle navigation"
         variant="ghost"
         color={color}
+        size={{ base: "xl", md: "sm" }}
         _hover={{ bg: useColorModeValue("gray.700", "gray.200") }}
+        marginLeft={2}
       />
 
       {/* Links Section */}
